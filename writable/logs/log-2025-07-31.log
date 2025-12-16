@@ -1,0 +1,21 @@
+ERROR - 2025-07-31 03:37:50 --> Unknown column 'user.nama_level' in 'where clause'
+CRITICAL - 2025-07-31 03:37:50 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\User.php(70): App\Models\M_belajar->siswa()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\User->siswa()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-07-31 03:37:50 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

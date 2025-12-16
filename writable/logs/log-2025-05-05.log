@@ -1,0 +1,156 @@
+CRITICAL - 2025-05-05 04:02:58 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 H:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#3 H:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#4 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#5 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 04:03:37 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 H:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#3 H:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#4 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#5 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 04:06:52 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 H:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#3 H:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#4 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#5 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 05:41:39 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 05:42:37 --> syntax error, unexpected ''id_pembayaran) ?>"class="btn ' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-05 05:44:30 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 06:02:06 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 H:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#3 H:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#4 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#5 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 06:03:28 --> syntax error, unexpected ''id_pembayaran'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 H:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 H:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#2 H:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#3 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#4 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-05 06:04:25 --> Cannot use object of type stdClass as array
+#0 H:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 H:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 H:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#3 H:\My Drive\YEOMAN\app\Controllers\Home.php(191): view('pemesanan', Array)
+#4 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#5 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 06:31:25 --> Class 'App\Models\ModelPemesanan' not found
+#0 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_pemesanan()
+#1 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-05 06:32:17 --> Call to undefined method App\Models\PemesananModel::getPemesanananById
+#0 H:\My Drive\YEOMAN\app\Controllers\Home.php(284): CodeIgniter\Model->__call('getPemesanananB...', Array)
+#1 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_pemesanan()
+#2 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-05 06:38:46 --> Call to undefined method App\Models\PemesananModel::getPemesananById
+#0 H:\My Drive\YEOMAN\app\Controllers\Home.php(284): CodeIgniter\Model->__call('getPemesananByI...', Array)
+#1 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_pemesanan()
+#2 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-05 06:59:22 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-05-05 06:59:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 J:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 J:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 J:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(20): App\Models\Yeoman->getWebDetails()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Pemasangan->__construct()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-05 07:21:34 --> Class 'App\Controllers\M_belajar' not found
+#0 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->petugasyeoman()
+#1 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-05 07:23:26 --> Class 'App\Controllers\M_belajar' not found
+#0 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->petugasyeoman()
+#1 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-05 07:24:40 --> Class 'App\Controllers\M_belajar' not found
+#0 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->petugasyeoman()
+#1 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#5 {main}

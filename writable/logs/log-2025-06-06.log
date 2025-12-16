@@ -1,0 +1,28 @@
+CRITICAL - 2025-06-06 06:45:24 --> Too few arguments to function App\Controllers\Home::calculateDiskon(), 5 passed in J:\My Drive\YEOMAN\app\Controllers\Home.php on line 603 and exactly 6 expected
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(603): App\Controllers\Home->calculateDiskon(0, 0, 'nominal', 10500000.0, 1)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-06-06 06:50:43 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-06-06 06:50:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 J:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 J:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 J:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 J:\My Drive\YEOMAN\app\Controllers\Home.php(28): App\Models\Yeoman->getWebDetails()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-06-06 07:19:30 --> GAGAL simpanpemesanan: Data produk tidak lengkap.
+ERROR - 2025-06-06 07:42:07 --> Tidak ada data produk dikirim.
+ERROR - 2025-06-06 07:47:07 --> Tidak ada data produk dikirim.
+ERROR - 2025-06-06 08:23:30 --> Column 'tipe_diskon' cannot be null
+CRITICAL - 2025-06-06 08:51:33 --> Cannot redeclare formatDiskon() (previously declared in J:\My Drive\YEOMAN\app\Views\pembayaran.php:258)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

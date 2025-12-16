@@ -1,0 +1,10 @@
+CRITICAL - 2025-06-25 22:10:04 --> Invalid file: index.html
+#0 I:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.html')
+#1 I:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('index.html', Array, true)
+#2 I:\My Drive\YEOMAN\app\Controllers\navbar.php(9): view('index.html')
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Navbar->index()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Navbar))
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#8 {main}

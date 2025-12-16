@@ -1,0 +1,581 @@
+CRITICAL - 2025-05-24 00:03:03 --> Undefined variable $fileGambar
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 101)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpanproduk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 00:17:16 --> syntax error, unexpected end of file
+#0 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('produk', Array, true)
+#2 J:\My Drive\YEOMAN\app\Controllers\Produk.php(46): view('produk', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-24 00:36:07 --> Undefined property: App\Controllers\Produk::$Model
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 27)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 03:27:41 --> Undefined variable $modal
+#0 J:\My Drive\YEOMAN\app\Views\produk.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 182)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('produk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(54): view('produk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 03:39:07 --> Undefined variable $produk_list
+#0 J:\My Drive\YEOMAN\app\Views\eproduk.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 49)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('eproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(177): view('eproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('71')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-05-24 03:42:05 --> Table 'yn.produk_set' doesn't exist
+CRITICAL - 2025-05-24 03:42:05 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(158): App\Models\M_produk->getProdukSet('71')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('71')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 03:54:48 --> Call to undefined method App\Models\M_produk::getProdukSetByIdProduk
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(158): CodeIgniter\Model->__call('getProdukSetByI...', Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('71')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 03:59:47 --> Call to undefined function formatRupiah()
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('eproduk', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Produk.php(183): view('eproduk', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('71')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-24 04:09:29 --> Undefined array key "modal"
+#0 J:\My Drive\YEOMAN\app\Views\eproduk.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'J:\\My Drive\\YEO...', 81)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('eproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(183): view('eproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('71')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 04:12:39 --> Undefined array key "modal"
+#0 J:\My Drive\YEOMAN\app\Views\eproduk.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'J:\\My Drive\\YEO...', 81)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('eproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(183): view('eproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('71')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 04:47:38 --> Class "App\Controllers\ModelDeposit" not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-24 04:52:53 --> There is no data to insert.
+#0 K:\My Drive\YEOMAN\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 K:\My Drive\YEOMAN\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 K:\My Drive\YEOMAN\app\Controllers\Home.php(242): CodeIgniter\Model->insert(Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-24 05:11:24 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-24 05:12:22 --> There is no data to insert.
+#0 K:\My Drive\YEOMAN\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 K:\My Drive\YEOMAN\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 K:\My Drive\YEOMAN\app\Controllers\Home.php(242): CodeIgniter\Model->insert(Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-24 05:16:50 --> There is no data to insert.
+#0 K:\My Drive\YEOMAN\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 K:\My Drive\YEOMAN\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#2 K:\My Drive\YEOMAN\app\Controllers\Home.php(242): CodeIgniter\Model->insert(Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-24 06:14:43 --> Undefined variable $modalProdukUtama
+#0 J:\My Drive\YEOMAN\app\Views\produk.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 185)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('produk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(54): view('produk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 06:17:09 --> Undefined variable $modalProdukUtama
+#0 J:\My Drive\YEOMAN\app\Views\produk.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 185)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('produk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(56): view('produk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 06:45:06 --> Undefined property: App\Controllers\Produk::$db
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 231)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpan_produk('71')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 07:14:25 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->tambahcicilan()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-24 07:22:49 --> Undefined property: stdClass::$kode_pemesanan
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(176): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 176)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran('6')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 07:30:22 --> Unknown column 'pemesanan.id_produk' in 'on clause'
+CRITICAL - 2025-05-24 07:30:22 --> Call to a member function getResultArray() on bool
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-24 07:34:56 --> Unknown column 'pemesanan.id_produk' in 'on clause'
+CRITICAL - 2025-05-24 07:34:56 --> Call to a member function getResultArray() on bool
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-24 07:38:38 --> Undefined array key "nama_produk"
+#0 K:\My Drive\YEOMAN\app\Views\laporan.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'K:\\My Drive\\YEO...', 95)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('laporan', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Home.php(76): view('laporan', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-05-24 07:48:59 --> Unknown column 'id_produk' in 'NEW'
+CRITICAL - 2025-05-24 07:49:00 --> Undefined variable $detailModel
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(432): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 432)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 07:49:28 --> Unknown column 'id_produk' in 'NEW'
+ERROR - 2025-05-24 07:49:28 --> Cannot add or update a child row: a foreign key constraint fails (`yn`.`detail_pemesanan`, CONSTRAINT `fk_pemesanan` FOREIGN KEY (`id_pemesanan`) REFERENCES `pemesanan` (`id_pemesanan`) ON DELETE CASCADE)
+ERROR - 2025-05-24 07:49:28 --> Cannot add or update a child row: a foreign key constraint fails (`yn`.`detail_pemesanan`, CONSTRAINT `fk_pemesanan` FOREIGN KEY (`id_pemesanan`) REFERENCES `pemesanan` (`id_pemesanan`) ON DELETE CASCADE)
+ERROR - 2025-05-24 07:49:36 --> Unknown column 'pemesanan.jumlah_produk' in 'field list'
+CRITICAL - 2025-05-24 07:49:36 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(321): App\Models\PemesananModel->getPemesananLengkap()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 07:54:42 --> Unknown column 'id_produk' in 'NEW'
+ERROR - 2025-05-24 07:54:42 --> Cannot add or update a child row: a foreign key constraint fails (`yn`.`detail_pemesanan`, CONSTRAINT `fk_pemesanan` FOREIGN KEY (`id_pemesanan`) REFERENCES `pemesanan` (`id_pemesanan`) ON DELETE CASCADE)
+ERROR - 2025-05-24 07:54:42 --> Cannot add or update a child row: a foreign key constraint fails (`yn`.`detail_pemesanan`, CONSTRAINT `fk_pemesanan` FOREIGN KEY (`id_pemesanan`) REFERENCES `pemesanan` (`id_pemesanan`) ON DELETE CASCADE)
+ERROR - 2025-05-24 07:59:11 --> Unknown column 'detail.id_detail' in 'on clause'
+CRITICAL - 2025-05-24 07:59:12 --> Call to a member function getResultArray() on bool
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-24 08:00:02 --> Unknown column 'detail.id_detail' in 'on clause'
+CRITICAL - 2025-05-24 08:00:02 --> Call to a member function getResultArray() on bool
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-24 08:00:51 --> Unknown column 'id_produk' in 'NEW'
+ERROR - 2025-05-24 08:00:51 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 08:08:08 --> Unknown column 'id_produk' in 'NEW'
+ERROR - 2025-05-24 08:08:08 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 08:15:02 --> Unknown column 'id_produk' in 'NEW'
+ERROR - 2025-05-24 08:15:02 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 08:21:10 --> Unknown column 'pemesanan.jumlah_produk' in 'field list'
+CRITICAL - 2025-05-24 08:21:10 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(322): App\Models\PemesananModel->getPemesananLengkap()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 08:59:46 --> Class "App\Controllers\DetailPemesananModel" not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-24 09:00:14 --> Undefined array key "nama_produk"
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(338): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'J:\\My Drive\\YEO...', 338)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 09:01:59 --> Call to undefined method App\Models\DetailPemesananModel::getDetailWithProduk
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(330): CodeIgniter\Model->__call('getDetailWithPr...', Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 09:11:53 --> Operand should contain 1 column(s)
+ERROR - 2025-05-24 09:11:53 --> Gagal insert pemesanan: []
+CRITICAL - 2025-05-24 09:37:23 --> Undefined variable $idPemesananBaru
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 478)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 09:37:51 --> Undefined variable $idPemesanan
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(478): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 478)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 09:38:10 --> Call to undefined method App\Models\DetailPemesananModel::insertDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(487): CodeIgniter\Model->__call('insertDetail', Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 09:39:16 --> Undefined variable $detailModel
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(486): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 486)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 09:42:09 --> Class "App\Models\ProdukModel" not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-24 09:44:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`harga`
+FROM `detail_pemesanan`
+JOIN `produk` ON `produk`.`id_produk` = `det...' at line 1
+CRITICAL - 2025-05-24 09:44:15 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 J:\My Drive\YEOMAN\app\Models\DetailPemesananModel.php(18): CodeIgniter\BaseModel->findAll()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(331): App\Models\DetailPemesananModel->getDetailWithProduk(Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+ERROR - 2025-05-24 09:48:45 --> Unknown column 'pemesanan.id_produk' in 'on clause'
+CRITICAL - 2025-05-24 09:48:45 --> Call to a member function getRow() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(573): App\Models\PemesananModel->getPemesananById('23')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_pemesanan('23')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 09:50:25 --> Unknown column 'pemesanan.jumlah_produk' in 'field list'
+CRITICAL - 2025-05-24 09:50:25 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(30): App\Models\M_pemasangan->getPemasangan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 09:56:27 --> Unknown column 'pemesanan.jumlah_produk' in 'field list'
+CRITICAL - 2025-05-24 09:56:27 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(30): App\Models\M_pemasangan->getPemasangan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 09:57:15 --> Unknown column 'pemesanan.id_produk' in 'on clause'
+CRITICAL - 2025-05-24 09:57:15 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(30): App\Models\M_pemasangan->getPemasangan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 09:57:53 --> Unknown column 'pemesanan.jumlah_produk' in 'field list'
+CRITICAL - 2025-05-24 09:57:53 --> Call to a member function getResultArray() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(138): App\Models\ModelPembayaran->getPembayaranWithPemesanan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->input_pemasangan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-24 10:07:14 --> Unknown column 'id_produk' in 'NEW'
+ERROR - 2025-05-24 10:07:15 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:08:03 --> Unknown column 'id_produk' in 'NEW'
+ERROR - 2025-05-24 10:08:03 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:09:14 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:12:55 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:16:18 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:22:10 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:25:26 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:29:25 --> Gagal insert pemesanan: []
+ERROR - 2025-05-24 10:31:49 --> DB Error saat insert pemesanan: {"code":0,"message":""}
+ERROR - 2025-05-24 10:31:49 --> Data yang menyebabkan error: {"kode_pemesanan":"B","id_pelanggan":0,"tanggal_pemesanan":"2025-05-24","total_harga":6625000,"status_pemesanan":"Menunggu Pembayaran","created_at":"2025-05-24 10:31:29","created_by":""}
+ERROR - 2025-05-24 10:35:16 --> Gagal insert pelanggan: []
+ERROR - 2025-05-24 10:40:47 --> Gagal insert pelanggan: []
+ERROR - 2025-05-24 10:42:02 --> Gagal insert pelanggan: []
+ERROR - 2025-05-24 10:43:02 --> Gagal insert pelanggan: []
+ERROR - 2025-05-24 10:47:18 --> Pel no-insert: []
+ERROR - 2025-05-24 10:49:00 --> Gagal insert pelanggan: []
+ERROR - 2025-05-24 10:51:32 --> Gagal insert pelanggan: []
+ERROR - 2025-05-24 10:53:06 --> Gagal insert pelanggan: []
+CRITICAL - 2025-05-24 10:53:43 --> Invalid file: layouts/main.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.ph...')
+#1 K:\My Drive\YEOMAN\system\View\View.php(226): CodeIgniter\View\View->render('layouts/main', Array, true)
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('laporan', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(533): view('laporan', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->laporan()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-24 10:53:53 --> View themes, no current section.
+#0 K:\My Drive\YEOMAN\app\Views\laporan.php(74): CodeIgniter\View\View->endSection()
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('laporan', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(533): view('laporan', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->laporan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 10:58:27 --> Class "App\Controllers\KeuanganModel" not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->laporan()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-24 10:58:41 --> Invalid file: layouts/main.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.ph...')
+#1 K:\My Drive\YEOMAN\system\View\View.php(226): CodeIgniter\View\View->render('layouts/main', Array, true)
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('laporan', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(525): view('laporan', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->laporan()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-24 10:59:33 --> Error connecting to the database: Unknown database 'yn1'
+CRITICAL - 2025-05-24 10:59:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'yn1'
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(46): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(528): App\Models\Yeoman->getWhere('user', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->laporan()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-24 10:59:49 --> Error connecting to the database: Unknown database 'yn1'
+CRITICAL - 2025-05-24 10:59:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'yn1'
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(46): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(528): App\Models\Yeoman->getWhere('user', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->laporan()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-24 11:50:20 --> Class "App\Controllers\KeuanganModel" not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->exportExcel()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-24 12:22:25 --> Unknown column 'jumlah_produk' in 'field list'
+CRITICAL - 2025-05-24 12:22:25 --> Call to a member function getRow() on bool
+#0 K:\My Drive\YEOMAN\app\Models\M_produk.php(51): App\Models\M_produk->getProdukTerjual('20')
+#1 K:\My Drive\YEOMAN\app\Controllers\Produk.php(25): App\Models\M_produk->getProduk()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-24 12:28:36 --> Undefined array key "modal"
+#0 K:\My Drive\YEOMAN\app\Views\penjualan.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'K:\\My Drive\\YEO...', 44)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(650): view('penjualan', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->penjualan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 12:29:56 --> Undefined array key "modal"
+#0 K:\My Drive\YEOMAN\app\Views\penjualan.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'K:\\My Drive\\YEO...', 44)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(652): view('penjualan', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->penjualan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-24 12:31:21 --> Invalid file: layout/main.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+#1 K:\My Drive\YEOMAN\system\View\View.php(226): CodeIgniter\View\View->render('layout/main', Array, true)
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('penjualan', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(645): view('penjualan', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->penjualan()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-24 12:31:32 --> Invalid file: layout/main.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+#1 K:\My Drive\YEOMAN\system\View\View.php(226): CodeIgniter\View\View->render('layout/main', Array, true)
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('penjualan', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(645): view('penjualan', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->penjualan()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-24 12:32:11 --> Undefined array key "harga"
+#0 K:\My Drive\YEOMAN\app\Views\penjualan.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'K:\\My Drive\\YEO...', 60)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(645): view('penjualan', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->penjualan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-05-24 12:33:17 --> Unknown column 'detail_pemesanan.jumlah' in 'field list'
+CRITICAL - 2025-05-24 12:33:17 --> Call to a member function getResultArray() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(630): App\Models\M_keuangan->getPenjualan('2025-05-06', '2025-05-30')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->penjualan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-24 23:54:09 --> Undefined variable $id_pembayaran
+#0 J:\My Drive\YEOMAN\app\Views\tpemasangan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 10)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('tpemasangan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(156): view('tpemasangan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->input_pemasangan()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}

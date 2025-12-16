@@ -1,0 +1,47 @@
+CRITICAL - 2025-04-14 12:35:33 --> syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING)
+#0 I:\My Drive\YEOMAN\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-04-14 12:49:10 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 I:\My Drive\YEOMAN\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin')
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin')
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-04-14 13:06:07 --> Too few arguments to function App\Models\Yeoman::countData(), 1 passed in I:\My Drive\YEOMAN\app\Controllers\admin.php on line 15 and exactly 2 expected
+#0 I:\My Drive\YEOMAN\app\Controllers\admin.php(15): App\Models\Yeoman->countData('produk')
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-04-14 13:06:27 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2025-04-14 13:06:27 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 I:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 I:\My Drive\YEOMAN\app\Models\Yeoman.php(54): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 I:\My Drive\YEOMAN\app\Controllers\admin.php(15): App\Models\Yeoman->countData('produk')
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-04-14 13:23:31 --> syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file
+#0 I:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 I:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#2 I:\My Drive\YEOMAN\app\Controllers\admin.php(22): view('admin/dashboard', Array)
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#8 {main}

@@ -1,0 +1,36 @@
+CRITICAL - 2025-06-26 06:41:16 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 06:41:20 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 06:58:08 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 09:36:19 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 09:48:07 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 09:50:20 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 09:53:53 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 09:57:54 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-06-26 10:03:16 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 J:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 J:\My Drive\YEOMAN\spark(45): require('J:\\My Drive\\YEO...')
+#2 {main}

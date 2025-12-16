@@ -1,0 +1,342 @@
+CRITICAL - 2025-07-08 02:37:44 --> Class "App\Models\RegisterModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 02:37:44 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 02:37:45 --> Class "App\Models\RegisterModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 02:37:45 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 02:45:14 --> Class "App\Models\RegisterModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 02:45:14 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 02:50:18 --> Class "App\Models\RegisterModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 02:50:18 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 02:57:55 --> Class "App\Models\RegisterModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 02:57:55 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 02:57:57 --> Class "App\Models\RegisterModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 02:57:57 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:13:13 --> Class "App\Models\RegisterModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\Register->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:13:14 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:17:42 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:17:42 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:17:47 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:17:47 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:18:52 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:18:52 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:21:08 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:21:08 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:22:00 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:22:00 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:22:03 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:22:03 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:22:14 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:22:14 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:23:26 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:23:26 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:31:41 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:31:41 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:31:49 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:31:49 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-08 03:32:28 --> Class "App\Models\UserModel" not found
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(809): App\Controllers\RegisterController->__construct()
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#5 {main}
+CRITICAL - 2025-07-08 03:32:28 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,9 @@
+CRITICAL - 2025-05-31 10:03:25 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-31 10:35:25 --> Error simpan pemesanan: Attempt to read property "id_pelanggan" on array
+ERROR - 2025-05-31 11:22:59 --> Error simpan pemesanan: Attempt to read property "id_pelanggan" on array

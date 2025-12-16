@@ -1,0 +1,81 @@
+CRITICAL - 2025-06-21 00:17:47 --> Attempt to read property "id_pelanggan" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(714): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 714)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-21 00:18:29 --> Attempt to read property "id_pelanggan" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(714): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 714)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-21 00:19:46 --> Call to undefined function App\Controllers\log_activity()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-06-21 00:20:32 --> Invalid file: editpemesanan.php
+#0 J:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('editpemesanan.p...')
+#1 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('editpemesanan', Array, true)
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(738): view('editpemesanan', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-06-21 00:20:45 --> Attempt to read property "id_produk" on array
+#0 J:\My Drive\YEOMAN\app\Views\epemesanan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 38)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('epemesanan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(738): view('epemesanan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-21 00:21:25 --> Attempt to read property "id_pemesanan" on array
+#0 J:\My Drive\YEOMAN\app\Views\epemesanan.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 11)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('epemesanan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(737): view('epemesanan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-21 00:22:15 --> Attempt to read property "id_produk" on array
+#0 J:\My Drive\YEOMAN\app\Views\epemesanan.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 38)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('epemesanan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(738): view('epemesanan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-21 01:58:39 --> Undefined variable $dp
+#0 J:\My Drive\YEOMAN\app\Views\epemesanan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 36)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('epemesanan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(758): view('epemesanan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpemesanan('1')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}

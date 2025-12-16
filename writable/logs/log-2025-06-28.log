@@ -1,0 +1,10 @@
+CRITICAL - 2025-06-28 02:01:19 --> Invalid file: coba_gratis.php
+#0 I:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('coba_gratis.php')
+#1 I:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('coba_gratis', Array, true)
+#2 I:\My Drive\bukanotaa\app\Controllers\CobaGratis.php(9): view('coba_gratis')
+#3 I:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\CobaGratis->index()
+#4 I:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CobaGratis))
+#5 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#8 {main}

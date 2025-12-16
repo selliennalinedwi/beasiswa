@@ -1,0 +1,233 @@
+CRITICAL - 2025-12-16 18:38:05 --> Class "App\Controllers\Beasiswa\BaseController" not found
+#0 C:\Users\7U400.COM\Documents\beasiswa\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('beasiswa/login')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('beasiswa/login')
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-12-16 18:38:14 --> Class "App\Models\Beasiswa\M_belajar" not found
+#0 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(809): App\Controllers\Beasiswa\Login->__construct()
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-12-16 18:38:50 --> Invalid file: beasiswa/login.php
+#0 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beasiswa/login....')
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/login', Array, true)
+#2 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Login.php(22): view('beasiswa/login', Array)
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Login->index()
+#4 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Login))
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#8 {main}
+CRITICAL - 2025-12-16 18:45:05 --> Class "App\Models\Olimpiade\M_log" not found
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Halaman.php(41): log_activity('14', 'Mengakses halam...')
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Halaman->index()
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Halaman))
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-12-16 18:50:31 --> Attempt to read property "nama" on null
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\admin\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 8)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/admin/...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Halaman.php(42): view('beasiswa/admin/...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Halaman->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Halaman))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-12-16 18:50:35 --> Attempt to read property "nama" on null
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\admin\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 8)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/admin/...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Halaman.php(42): view('beasiswa/admin/...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Halaman->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Halaman))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+ERROR - 2025-12-16 18:50:40 --> Table 'beasiswa.log_kas' doesn't exist
+ERROR - 2025-12-16 18:50:40 --> Table 'beasiswa.kas_setting' doesn't exist
+CRITICAL - 2025-12-16 18:50:40 --> Call to a member function getRow() on bool
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Kas\Halaman.php(31): App\Models\Kas\M_belajar->settings()
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Kas\Halaman->index()
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Halaman))
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-12-16 18:50:59 --> Attempt to read property "nama" on null
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\admin\header.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 8)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/admin/...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Halaman.php(42): view('beasiswa/admin/...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Halaman->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Halaman))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-12-16 18:51:43 --> Attempt to read property "foto" on null
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\admin\header.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 81)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/admin/...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Halaman.php(42): view('beasiswa/admin/...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Halaman->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Halaman))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-12-16 18:51:46 --> Attempt to read property "foto" on null
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\admin\header.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 81)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/admin/...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Halaman.php(42): view('beasiswa/admin/...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Halaman->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Halaman))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-12-16 18:52:21 --> Attempt to read property "foto" on null
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\admin\header.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 81)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/admin/...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Halaman.php(42): view('beasiswa/admin/...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Halaman->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Halaman))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+ CRITICAL - 2025-12-16 20:29:00 --> Invalid file: beasiswa/data/data.php
+#0 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('beasiswa/data/d...')
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/data/d...', Array, true)
+#2 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Data.php(38): view('beasiswa/data/d...', Array)
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Data->index()
+#4 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Data))
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#8 {main}
+CRITICAL - 2025-12-16 20:35:40 --> Undefined variable $request
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Data.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 174)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Data->inputsave()
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Data))
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-12-16 20:40:31 --> Undefined variable $row
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\data\data.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 64)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/data/d...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Data.php(38): view('beasiswa/data/d...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Data->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Data))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-12-16 20:40:51 --> Undefined variable $row
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\data\data.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 85)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/data/d...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Data.php(38): view('beasiswa/data/d...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Data->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Data))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-12-16 20:46:19 --> You must set the database table to be used with your query.
+#0 C:\Users\7U400.COM\Documents\beasiswa\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Data.php(74): CodeIgniter\Model->__call('data', Array)
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Data->edit('4')
+#4 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Data))
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#8 {main}
+CRITICAL - 2025-12-16 20:57:30 --> Undefined property: App\Controllers\Beasiswa\Dashboard::$db
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 23)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Dashboard))
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-12-16 20:58:10 --> Undefined property: App\Controllers\Beasiswa\Dashboard::$db
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 23)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Dashboard))
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-12-16 20:58:47 --> Undefined variable $level
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Dashboard.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 37)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Dashboard))
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-12-16 20:58:58 --> Undefined variable $mey
+#0 C:\Users\7U400.COM\Documents\beasiswa\app\Views\beasiswa\dashboard.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 8)
+#1 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\beasiswa\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\beasiswa\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/dashbo...', Array, true)
+#4 C:\Users\7U400.COM\Documents\beasiswa\app\Controllers\Beasiswa\Dashboard.php(37): view('beasiswa/dashbo...', Array)
+#5 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Dashboard->index()
+#6 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Dashboard))
+#7 C:\Users\7U400.COM\Documents\beasiswa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\beasiswa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\beasiswa\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-12-16 16:28:23 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\USER\Downloads\beasiswa-master\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\USER\Downloads\beasiswa-master\spark(45): require('C:\\Users\\USER\\D...')
+#2 {main}
+CRITICAL - 2025-12-16 16:29:07 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\USER\Downloads\beasiswa-master\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\USER\Downloads\beasiswa-master\spark(45): require('C:\\Users\\USER\\D...')
+#2 {main}
+CRITICAL - 2025-12-16 16:30:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\USER\Downloads\beasiswa-master\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\USER\Downloads\beasiswa-master\spark(45): require('C:\\Users\\USER\\D...')
+#2 {main}
+CRITICAL - 2025-12-16 16:30:13 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\USER\Downloads\beasiswa-master\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\USER\Downloads\beasiswa-master\spark(45): require('C:\\Users\\USER\\D...')
+#2 {main}
+ERROR - 2025-12-16 22:39:54 --> Unknown column 'kas' in 'where clause'
+CRITICAL - 2025-12-16 22:45:53 --> Undefined property: stdClass::$nama_level
+#0 C:\Users\USER\Downloads\beasiswa-master\app\Views\beasiswa\data\deleted.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\USER\\D...', 38)
+#1 C:\Users\USER\Downloads\beasiswa-master\system\View\View.php(210): include('C:\\Users\\USER\\D...')
+#2 C:\Users\USER\Downloads\beasiswa-master\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\USER\Downloads\beasiswa-master\system\Common.php(1089): CodeIgniter\View\View->render('beasiswa/data/d...', Array, true)
+#4 C:\Users\USER\Downloads\beasiswa-master\app\Controllers\Beasiswa\Data.php(59): view('beasiswa/data/d...', Array)
+#5 C:\Users\USER\Downloads\beasiswa-master\system\CodeIgniter.php(832): App\Controllers\Beasiswa\Data->deleted()
+#6 C:\Users\USER\Downloads\beasiswa-master\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Beasiswa\Data))
+#7 C:\Users\USER\Downloads\beasiswa-master\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\USER\Downloads\beasiswa-master\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\USER\Downloads\beasiswa-master\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\USER\\D...')
+#10 {main}

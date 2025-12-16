@@ -1,0 +1,43 @@
+ERROR - 2025-06-04 04:12:48 --> Unknown column 'modal' in 'field list'
+ERROR - 2025-06-04 04:12:48 --> Unknown column 'modal' in 'field list'
+ERROR - 2025-06-04 04:12:48 --> Unknown column 'modal' in 'field list'
+ERROR - 2025-06-04 04:12:48 --> Unknown column 'modal' in 'field list'
+ERROR - 2025-06-04 04:12:48 --> Unknown column 'modal' in 'field list'
+ERROR - 2025-06-04 04:12:48 --> Unknown column 'modal' in 'field list'
+ERROR - 2025-06-04 04:12:48 --> Unknown column 'modal' in 'field list'
+CRITICAL - 2025-06-04 06:34:10 --> include(): Failed opening 'J:\My Drive\YEOMAN\app\Config/../Views\pembayaran.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): Fail...', 'J:\\My Drive\\YEO...', 210)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pembayaran', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(97): view('pembayaran', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-04 06:34:42 --> include(): Failed opening 'J:\My Drive\YEOMAN\app\Config/../Views\pembayaran.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): Fail...', 'J:\\My Drive\\YEO...', 210)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pembayaran', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(97): view('pembayaran', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-04 06:34:45 --> include(): Failed opening 'J:\My Drive\YEOMAN\app\Config/../Views\pembayaran.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): Fail...', 'J:\\My Drive\\YEO...', 210)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pembayaran', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(97): view('pembayaran', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}

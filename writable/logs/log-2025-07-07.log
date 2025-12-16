@@ -1,0 +1,460 @@
+CRITICAL - 2025-07-07 01:46:56 --> Invalid file: landing/konsultasi.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/konsult...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/konsult...', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(14): view('landing/konsult...')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->konsultasi()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 01:46:56 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 01:47:00 --> Invalid file: landing/konsultasi.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/konsult...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/konsult...', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(14): view('landing/konsult...')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->konsultasi()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 01:47:01 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 01:55:11 --> Invalid file: landing/konsultasi.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/konsult...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/konsult...', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(14): view('landing/konsult...')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->konsultasi()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 01:55:11 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 01:55:22 --> Invalid file: landing/konsultasi.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/konsult...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/konsult...', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(14): view('landing/konsult...')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->konsultasi()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 01:55:22 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 01:57:43 --> Invalid file: konsultasi_form.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('konsultasi_form...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('konsultasi_form', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\konsultasi.php(9): view('konsultasi_form')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\Konsultasi->index()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konsultasi))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 01:57:44 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 01:58:57 --> Invalid file: konsultasi_form.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('konsultasi_form...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('konsultasi_form', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\konsultasi.php(9): view('konsultasi_form')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\Konsultasi->index()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konsultasi))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 01:58:57 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 01:59:57 --> Invalid file: konsultasi_form.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('konsultasi_form...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('konsultasi_form', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\konsultasi.php(9): view('konsultasi_form')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\Konsultasi->index()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konsultasi))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 01:59:58 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:52:37 --> Invalid file: konsultasi_form.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('konsultasi_form...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('konsultasi_form', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\konsultasi.php(9): view('konsultasi_form')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\Konsultasi->index()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Konsultasi))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:52:38 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:56:20 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:56:20 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:56:22 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:56:23 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:56:31 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:56:31 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:56:35 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:56:35 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:56:38 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:56:38 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:56:40 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:56:40 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 03:56:41 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 03:56:42 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 04:20:11 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 04:20:11 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 04:25:09 --> Invalid file: landing.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing.php')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(10): view('landing')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->index()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 04:25:09 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 04:25:52 --> Invalid file: landing/tanya.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('landing/tanya.p...')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('landing/tanya', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\LandingController.php(15): view('landing/tanya')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\LandingController->tanya()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LandingController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 04:25:52 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 20:39:03 --> Class "App\Http\Controllers\Controller" not found
+#0 J:\My Drive\bukanotaa\system\Router\Router.php(518): include_once()
+#1 J:\My Drive\bukanotaa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('PageFiturContro...')
+#2 J:\My Drive\bukanotaa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('PageFiturContro...')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#7 {main}
+CRITICAL - 2025-07-07 20:39:04 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 20:39:58 --> Class "App\Http\Controllers\Controller" not found
+#0 J:\My Drive\bukanotaa\system\Router\Router.php(518): include_once()
+#1 J:\My Drive\bukanotaa\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('PageFiturContro...')
+#2 J:\My Drive\bukanotaa\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('PageFiturContro...')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#7 {main}
+CRITICAL - 2025-07-07 20:39:59 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-07-07 20:54:19 --> Invalid file: konsultasi.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('konsultasi.php')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('konsultasi', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\PageFiturController.php(14): view('konsultasi')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\PageFiturController->konsultasi()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PageFiturController))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-07-07 20:54:20 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

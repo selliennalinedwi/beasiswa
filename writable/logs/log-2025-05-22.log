@@ -1,0 +1,157 @@
+ERROR - 2025-05-22 07:49:58 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-05-22 07:49:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 K:\My Drive\YEOMAN\app\Controllers\Home.php(24): App\Models\Yeoman->getWebDetails()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-22 08:10:39 --> Undefined variable $produk
+#0 K:\My Drive\YEOMAN\app\Views\barang\ibarangkeluar.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 19)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('barang/ibarangk...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Barang.php(256): view('barang/ibarangk...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->inputbarangk()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-22 09:26:01 --> Undefined property: stdClass::$jumlah
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 170)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran('3')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-22 09:27:34 --> Unknown column 'kategori' in 'field list'
+ERROR - 2025-05-22 09:31:54 --> Unknown column 'kategori' in 'field list'
+CRITICAL - 2025-05-22 09:33:43 --> Undefined property: stdClass::$kategori
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\keuangan.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 36)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/keuang...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(37): view('keuangan/keuang...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-22 09:34:17 --> Undefined property: stdClass::$foto
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\keuangan.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 46)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/keuang...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(37): view('keuangan/keuang...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-22 09:43:39 --> Undefined variable $pemasukan
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\keuangan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 25)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/keuang...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(37): view('keuangan/keuang...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-22 09:50:11 --> Undefined variable $builder
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 21)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-22 09:50:39 --> Undefined property: App\Controllers\Keuangan::$db
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 21)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-22 09:52:10 --> Invalid file: keuangan/_table.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keuangan/_table...')
+#1 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/_table', Array, true)
+#2 K:\My Drive\YEOMAN\app\Views\keuangan\keuangan.php(25): view('keuangan/_table', Array)
+#3 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#4 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/keuang...', Array, true)
+#6 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(40): view('keuangan/keuang...', Array)
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#9 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#12 {main}
+CRITICAL - 2025-05-22 09:52:33 --> Invalid file: keuangan/pemasukan.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keuangan/pemasu...')
+#1 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/pemasu...', Array, true)
+#2 K:\My Drive\YEOMAN\app\Views\keuangan\keuangan.php(24): view('keuangan/pemasu...', Array)
+#3 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#4 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/keuang...', Array, true)
+#6 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(40): view('keuangan/keuang...', Array)
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#9 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#12 {main}
+CRITICAL - 2025-05-22 09:52:50 --> Invalid file: keuangan/pemasukan.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('keuangan/pemasu...')
+#1 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/pemasu...', Array, true)
+#2 K:\My Drive\YEOMAN\app\Views\keuangan\keuangan.php(24): view('keuangan/pemasu...', Array)
+#3 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#4 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/keuang...', Array, true)
+#6 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(40): view('keuangan/keuang...', Array)
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->index()
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#9 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#12 {main}
+CRITICAL - 2025-05-22 10:24:45 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in K:\My Drive\YEOMAN\system\Helpers\url_helper.php on line 87
+#0 K:\My Drive\YEOMAN\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 K:\My Drive\YEOMAN\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 K:\My Drive\YEOMAN\app\Views\keuangan\pengeluaran.php(40): base_url(NULL)
+#3 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#4 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/pengel...', Array, true)
+#6 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(98): view('keuangan/pengel...', Array)
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->pengeluaran()
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#9 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#12 {main}
+CRITICAL - 2025-05-22 10:25:01 --> _get_uri(): Argument #1 ($relativePath) must be of type string, null given, called in K:\My Drive\YEOMAN\system\Helpers\url_helper.php on line 87
+#0 K:\My Drive\YEOMAN\system\Helpers\url_helper.php(87): _get_uri(NULL, Object(Config\App))
+#1 K:\My Drive\YEOMAN\system\Helpers\url_helper.php(106): site_url(NULL, NULL, Object(Config\App))
+#2 K:\My Drive\YEOMAN\app\Views\keuangan\pengeluaran.php(40): base_url(NULL)
+#3 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#4 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/pengel...', Array, true)
+#6 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(98): view('keuangan/pengel...', Array)
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->pengeluaran()
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#9 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#12 {main}

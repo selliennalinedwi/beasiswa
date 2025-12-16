@@ -1,0 +1,182 @@
+ERROR - 2025-04-26 01:02:55 --> Table 'yeoman.web_detail' doesn't exist
+CRITICAL - 2025-04-26 01:02:55 --> Call to a member function getRowArray() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): App\Models\Yeoman->getWebDetails()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-04-26 01:05:02 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:06:50 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:07:25 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+ERROR - 2025-04-26 01:08:23 --> Table 'yeoman.web_detail' doesn't exist
+CRITICAL - 2025-04-26 01:08:23 --> Call to a member function getRowArray() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): App\Models\Yeoman->getWebDetails()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-04-26 01:08:30 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:08:35 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:08:43 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:11:26 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:11:55 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:13:28 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:13:36 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:20:57 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(11): CodeIgniter\Model->__call('getWebDetails', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-04-26 01:23:20 --> Call to a member function table() on null
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-04-26 01:27:04 --> Class 'App\Controllers\Database' not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-04-26 03:51:20 --> Class 'App\Controllers\M_pemesanan' not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->proses_pemasangan('4')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-04-26 04:03:18 --> Table 'yeoman.web_detail' doesn't exist
+CRITICAL - 2025-04-26 04:03:19 --> Call to a member function getRowArray() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(16): App\Models\Yeoman->getWebDetails()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-04-26 04:09:14 --> Table 'yeoman.web_detail' doesn't exist
+CRITICAL - 2025-04-26 04:09:14 --> Call to a member function getRowArray() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(16): App\Models\Yeoman->getWebDetails()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-04-26 04:10:16 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 J:\My Drive\YEOMAN\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('pemasangan/pros...')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('pemasangan/pros...')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-04-26 04:10:43 --> Call to a member function table() on null
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->proses_pemasangan('4')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}

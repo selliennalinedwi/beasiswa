@@ -1,0 +1,20 @@
+CRITICAL - 2025-05-12 17:52:34 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 K:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 K:\My Drive\YEOMAN\spark(45): require('K:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-05-12 17:53:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 K:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 K:\My Drive\YEOMAN\spark(45): require('K:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-05-12 17:53:17 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 K:\My Drive\YEOMAN\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 K:\My Drive\YEOMAN\spark(45): require('K:\\My Drive\\YEO...')
+#2 {main}
+CRITICAL - 2025-05-12 21:19:28 --> Argument 2 passed to view() must be of the type array, null given, called in J:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 J:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}

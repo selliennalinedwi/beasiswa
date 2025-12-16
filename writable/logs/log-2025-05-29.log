@@ -1,0 +1,80 @@
+CRITICAL - 2025-05-29 00:18:15 --> Undefined variable $id_pembayaran
+#0 J:\My Drive\YEOMAN\app\Views\tpemasangan.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 10)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('tpemasangan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(156): view('tpemasangan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->input_pemasangan()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-05-29 00:21:39 --> Unknown column 'jenis_pembayaran' in 'field list'
+ERROR - 2025-05-29 00:21:40 --> Unknown column 'pembayaran.id_detail' in 'on clause'
+CRITICAL - 2025-05-29 00:21:40 --> Call to a member function getResultArray() on bool
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-29 00:22:00 --> Unknown column 'pembayaran.id_detail' in 'on clause'
+CRITICAL - 2025-05-29 00:22:00 --> Call to a member function getResultArray() on bool
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-29 03:14:17 --> Undefined variable $hee
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 395)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->inputpemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-29 03:18:01 --> Gagal insert pelanggan: []
+ERROR - 2025-05-29 03:24:56 --> PMN error:[]
+ERROR - 2025-05-29 03:28:24 --> PMN error:[]
+CRITICAL - 2025-05-29 03:31:39 --> Class "App\Controllers\ProdukModel" not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-29 03:32:43 --> Class "App\Controllers\PelangganModel" not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-29 03:32:59 --> Call to undefined function App\Controllers\random_string()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-29 03:34:29 --> Unknown column 'no_telp' in 'where clause'
+CRITICAL - 2025-05-29 03:34:29 --> Call to a member function getFirstRow() on bool
+#0 J:\My Drive\YEOMAN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 J:\My Drive\YEOMAN\app\Controllers\Home.php(437): CodeIgniter\BaseModel->first()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#7 {main}
+ERROR - 2025-05-29 03:47:50 --> Error simpan pemesanan: Attempt to read property "harga" on array
+ERROR - 2025-05-29 03:57:56 --> Gagal insert pelanggan baru
+ERROR - 2025-05-29 04:00:15 --> Gagal insert pelanggan baru
+ERROR - 2025-05-29 04:01:12 --> Gagal insert pelanggan baru
+ERROR - 2025-05-29 04:02:48 --> Gagal insert pelanggan baru
+ERROR - 2025-05-29 04:03:56 --> Gagal insert pelanggan baru: {"nama_pelanggan":"Nama pelanggan wajib diisi.","no_hp":"No HP wajib diisi."}
+ERROR - 2025-05-29 04:08:00 --> Gagal insert pelanggan baru: {"nama_pelanggan":"Nama pelanggan wajib diisi.","no_hp":"No HP wajib diisi."}
+ERROR - 2025-05-29 04:09:22 --> Gagal insert pelanggan baru: {"nama_pelanggan":"Nama pelanggan wajib diisi.","no_hp":"No HP wajib diisi."}
+ERROR - 2025-05-29 04:12:57 --> Gagal insert pelanggan baru: {"nama_pelanggan":"Nama pelanggan wajib diisi.","no_hp":"No HP wajib diisi."}

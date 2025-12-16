@@ -1,0 +1,696 @@
+CRITICAL - 2025-05-07 05:07:36 --> Invalid file: profile.php
+#0 I:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 I:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 I:\My Drive\YEOMAN\app\Controllers\User.php(152): view('profile', Array)
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->profile()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-07 05:08:59 --> Invalid file: profile.php
+#0 I:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile.php')
+#1 I:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('profile', Array, true)
+#2 I:\My Drive\YEOMAN\app\Controllers\User.php(152): view('profile', Array)
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->profile()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-07 05:22:11 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'I:\\My Drive\\YEO...', 423, Array)
+#1 I:\My Drive\YEOMAN\system\Session\Session.php(423): session_destroy()
+#2 I:\My Drive\YEOMAN\app\Controllers\Login.php(88): CodeIgniter\Session\Session->destroy()
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Login->logout()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-07 05:55:57 --> Class 'App\Controllers\M_Petugas' not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->updateProfile()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-07 05:58:34 --> Unknown column 'foto' in 'field list'
+ERROR - 2025-05-07 06:08:22 --> Unknown column 'foto' in 'field list'
+ERROR - 2025-05-07 06:20:44 --> Unknown column 'foto' in 'field list'
+ERROR - 2025-05-07 06:25:17 --> Unknown column 'foto' in 'field list'
+ERROR - 2025-05-07 06:29:37 --> Unknown column 'foto' in 'field list'
+CRITICAL - 2025-05-07 06:38:30 --> Invalid file: login.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 K:\My Drive\YEOMAN\app\Controllers\Login.php(32): view('login', Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-07 06:38:42 --> Invalid file: login.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 K:\My Drive\YEOMAN\app\Controllers\Login.php(32): view('login', Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Login->index()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-07 06:53:36 --> file_get_contents(https://www.google.com/recaptcha/api/siteverify?secret=6LeyfRUrAAAAAKWAdLw5Uk5wBLFlGU3J1NuuJYy_&amp;response=03AFcWeA7MqaSIP0NRB9xRKmQ6tIOL2aUa1tCinMgMVwgkJirPJXmdGOLBw9rQJJSzkYDN4JSxlln2Xd6iVhCn6XrQWXKeYLD5wNDjz-Hhfr9iX8CXaLi2cFZgeNoWYhvAKx0kT7qVyvlcrWXOwrzVomn_f_5UGk6S8GGWOtV-JHJI0TVzFCRjQZwXz1BL-LnVLAIIeT-DvkFgLFinV5TtEQjZVx35AKiXPKo3rTnZAmd5eRYsQdnv_N9WCH5-p9e9APauUybOYIPzEuV7rzoi3z0cejtgkqtFXtSZ4dagTGngW0owWF-zv3YYzpR39Xw7IGn-HStzgMVXIhMoLrwugdmMhB93AxWdjOsHqvvSSKqLV_1pwEoh4vTTd1uUaXyx3b-T-ka0jfF6T2gzFXxLRsg5Ig7Why_O-AQsT_4ZMMyLLQ0qnkhMkXUKS7rPDjS904YPFw8NrlSUWo2i2khfgUXHv2GTuZmUjhxTQCB5jeSUlCKoYcGPmkaRURBTf-Lb-f_WDYAs9LxyWcODQQjfBr-Uk9fYNxUxPargtyKNu00DdRr50lkdOVf9iU2gpy7VFLpjeKVnevTE2tLBL1JDEXMO6fHRI-p_jrtNSreF9dTtwXpuGNw156grRsEz1ltaWqCUt6i2zGn1gwPqAON60yHZEcNU7euvXnt5FYV9eA8hVY5ahaIxGiMVYiZGmLQNh1e6S8NLGwfVIbyjNLobkryaVm7N78kuQcixCWNnRD3VthKrVDal3yL-q_lgKHQghK_2-F5cQvFT0qI77PVMF_JZwCwsJ_kzOzMqlgriHJ4sV0ljK558S2SQJXP5bcbIxXGbbJAMusrehWCMd0IaNqz2zqnCVCvHnT3lzwBFyhhbNbFHw6Ca94JpnuvTm92x5IuVOPisiGG8mgqu1Fa2kNU1nCjhpp8wdUhDvZESh0RSZeKVXRfqJvB9uRW-jsfFXKoRPLnmSeSy2PDR0cp3IvKy8Cq3NwaQLvJDSYXRxhUStcB4WYC786DGA64wnzuSeS2El55z-D-yA5eYizmQzWlldb9R_4uJbWlexci_ICfGP-RYD8hHk5o_hHF2ZgF_fC_3pkMASdSBtc6dc9dXhtK0u-LesyjvLCNNLdRsMWpV6O39aZ_tpS_7sGgW5dowI_nLH1MOh7qsm34r9smFKKO1x2MgaJ06W820iVV5KZId3TkARA3gnMzYgLzK7DecYUonzUJpC-LPVUvHni32TfINPZhboJ5lviSolGh7p8lM0fDK7VNDPL2qUwAIRG11OxaEzxuPSKyBHvNMt04VLxM6U3_UGORGsu_kWlBufwWfxCwQ9w6cMdWk8Kux3RZ_jOMrtCupzy8PY-ljae8iN_gsMbmE-SRh5JtJprgE2ojHmBmeEregR54ijW00qb0O3CJE9hAqq4jt8AFGtF4j6CuA3E_qZUOVf59ysCKLGI8y0PKx8rr1xybu5f-dIVblUheDi35FEgYWlD523eE6zElgbwtYGoZuhZXuYZ4xAtzx6Za6gJW4RR0Sk0fYl3SlrxZn5lHe09tupnTgfFamwmmGuQqgs9c1r01-fc8ww83BcQIUpJJ4ImUXXmQjw7PE8wzAIHGScJnwjFl9-Nl9qQkE9q9P4wgHCyQDLHF-nXAWDsV7Jl0SHJuPk-h62hiCe2wnjdCtAWqkULyplkTponDeCPMCiE7D6Lb_U2UrMn0is_mRyIXJTIGJvYdF0hV-zgE7RoEzPj9_Khvu_O03ilhiRk18Sh_GZj9SRNy-kn600U4kWYuymkkXjb2Oe9LVOC4mOsY2mPbRDgomCB2g5jaZYbn8AavTf96WTRFGKKHNORqYgeMZcgz7MHm3niBmUmyUPRhILEiCtsQlFKcgu9WArKKSyeeU60-n6yH_g4IsVB3iqeCW6ZtrjxTk7VlBUrGUy-Q9LJdVMik-VDmLq8uxrgZsgdayrJ4A6nsDWM-rrSBz7Ko-yivRg2_ErFAxE-WM-8AZ9TfEgMM-MKUGIxrNXt-a1VeZqnj9RWCKCIc4wxsZfbJ5U0vDCoNr_RLgFXCA-4vw8k3N): failed to open stream: HTTP request failed!
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'K:\\My Drive\\YEO...', 48, Array)
+#1 K:\My Drive\YEOMAN\app\Controllers\Login.php(48): file_get_contents('https://www.goo...')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Login->aksi_login()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-07 07:17:28 --> Class 'App\Controllers\M_belajar' not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 07:17:51 --> Call to undefined function App\Controllers\log_activity()
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 07:24:22 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('admin/header', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\admin.php(31): view('admin/header', Array, Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-07 07:24:27 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('admin/header', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\admin.php(31): view('admin/header', Array, Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-07 07:48:15 --> Call to a member function tampil1() on null
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->tabel_user()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 07:48:28 --> Call to a member function tampil1() on null
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->tabel_user()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 08:16:48 --> Call to undefined method App\Models\M_produk::getProdukTambahanByPemasangan
+#0 K:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(41): CodeIgniter\Model->__call('getProdukTambah...', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 08:27:36 --> Call to undefined method App\Models\M_produk::getProdukTambahanByPemasangan
+#0 K:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(41): CodeIgniter\Model->__call('getProdukTambah...', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 08:30:51 --> Table 'yeoman.log' doesn't exist
+CRITICAL - 2025-05-07 08:30:53 --> Argument 2 passed to view() must be of the type array, null given, called in H:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 H:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 H:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 H:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 H:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 H:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 H:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('H:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 08:33:22 --> Call to undefined method App\Models\M_produk::getProdukTambahanByPemasangan
+#0 K:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(41): CodeIgniter\Model->__call('getProdukTambah...', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 08:36:49 --> Call to undefined method App\Models\M_produk::getProdukTambahanByPemasangan
+#0 K:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(41): CodeIgniter\Model->__call('getProdukTambah...', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 08:37:03 --> Call to undefined method App\Models\M_produk::getProdukTambahanByPemasangan
+#0 K:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(41): CodeIgniter\Model->__call('getProdukTambah...', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 08:40:31 --> Call to undefined method App\Models\M_produk::getProdukTambahanByPemasangan
+#0 K:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(41): CodeIgniter\Model->__call('getProdukTambah...', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 08:44:40 --> Argument 2 passed to view() must be of the type array, null given, called in J:\My Drive\YEOMAN\app\Controllers\Home.php on line 34
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(34): view('admin/header', NULL, Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 08:45:18 --> Table 'yeoman.log' doesn't exist
+CRITICAL - 2025-05-07 08:45:18 --> Argument 2 passed to view() must be of the type array, null given, called in J:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 J:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 08:45:27 --> Table 'yeoman.log' doesn't exist
+CRITICAL - 2025-05-07 08:45:27 --> Argument 2 passed to view() must be of the type array, null given, called in J:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 J:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 08:46:00 --> Table 'yeoman.log' doesn't exist
+CRITICAL - 2025-05-07 08:46:00 --> Argument 2 passed to view() must be of the type array, null given, called in J:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 J:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 08:47:02 --> Table 'yeoman.log' doesn't exist
+ERROR - 2025-05-07 08:54:43 --> Unknown column 'kategori' in 'where clause'
+CRITICAL - 2025-05-07 08:54:45 --> Call to a member function getResult() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Produk.php(21): App\Models\M_produk->getProdukFiltered('Aksesoris')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 08:55:10 --> Class 'App\Controllers\Yeoman' not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-07 08:55:40 --> Unknown column 'kategori' in 'where clause'
+CRITICAL - 2025-05-07 08:55:40 --> Call to a member function getResult() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Produk.php(22): App\Models\M_produk->getProdukFiltered('Makanan')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 09:04:08 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in K:\My Drive\YEOMAN\app\Models\M_produk.php on line 59
+#0 K:\My Drive\YEOMAN\app\Models\M_produk.php(59): CodeIgniter\Database\BaseBuilder->like('kategori', Array)
+#1 K:\My Drive\YEOMAN\app\Controllers\Produk.php(22): App\Models\M_produk->getProdukFiltered(Array)
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-07 09:05:13 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, array given, called in K:\My Drive\YEOMAN\app\Models\M_produk.php on line 59
+#0 K:\My Drive\YEOMAN\app\Models\M_produk.php(59): CodeIgniter\Database\BaseBuilder->like('kategori', Array)
+#1 K:\My Drive\YEOMAN\app\Controllers\Produk.php(22): App\Models\M_produk->getProdukFiltered(Array)
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-07 09:05:51 --> Object of class stdClass could not be converted to string
+#0 K:\My Drive\YEOMAN\app\Models\M_produk.php(59): implode(' ', Array)
+#1 K:\My Drive\YEOMAN\app\Controllers\Produk.php(22): App\Models\M_produk->getProdukFiltered(Array)
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-07 09:06:14 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orLike() must be of the type string, object given, called in K:\My Drive\YEOMAN\app\Models\M_produk.php on line 63
+#0 K:\My Drive\YEOMAN\app\Models\M_produk.php(63): CodeIgniter\Database\BaseBuilder->orLike('kategori', Object(stdClass))
+#1 K:\My Drive\YEOMAN\app\Controllers\Produk.php(22): App\Models\M_produk->getProdukFiltered(Array)
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-07 09:06:40 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('produk', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Produk.php(42): view('produk', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-07 09:12:54 --> Unknown column 'kategori' in 'where clause'
+CRITICAL - 2025-05-07 09:12:54 --> Call to a member function getResult() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Produk.php(23): App\Models\M_produk->getProdukFiltered('1')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 09:13:02 --> Unknown column 'kategori' in 'where clause'
+CRITICAL - 2025-05-07 09:13:02 --> Call to a member function getResult() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Produk.php(23): App\Models\M_produk->getProdukFiltered('1')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 09:18:22 --> You must set the database table to be used with your query.
+#0 J:\My Drive\YEOMAN\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 J:\My Drive\YEOMAN\system\Model.php(722): CodeIgniter\Model->builder()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(535): CodeIgniter\Model->__call('tambah', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpetugasyeoman()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-07 09:19:45 --> Illegal string offset 'email'
+#0 J:\My Drive\YEOMAN\app\Models\M_petugas.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'J:\\My Drive\\YEO...', 48, Array)
+#1 J:\My Drive\YEOMAN\app\Controllers\Home.php(535): App\Models\M_petugas->tambah('petugas', Array)
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpetugasyeoman()
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-07 09:34:37 --> Too few arguments to function App\Controllers\Home::editpetugasyeoman(), 0 passed in J:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpetugasyeoman()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 09:56:41 --> Call to undefined method App\Controllers\Home::logActivity()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->dihapus_petugas()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 10:02:09 --> Call to undefined method App\Controllers\Home::logActivity()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->delete_petugas('5')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 10:03:07 --> Class 'App\Controllers\M_petugasyeoman' not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('1')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 10:03:11 --> Class 'App\Controllers\M_petugasyeoman' not found
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('6')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 10:10:09 --> Call to undefined method App\Models\M_petugas::getPetugasDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(675): CodeIgniter\Model->__call('getPetugasDetai...', Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('6')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 10:10:48 --> Unknown column 'petugas' in 'field list'
+CRITICAL - 2025-05-07 10:10:48 --> Call to a member function getFirstRow() on bool
+#0 J:\My Drive\YEOMAN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 J:\My Drive\YEOMAN\app\Models\M_petugas.php(100): CodeIgniter\BaseModel->first()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(675): App\Models\M_petugas->getPetugasDetail('6')
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('6')
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+ERROR - 2025-05-07 10:11:02 --> Unknown column 'petugas' in 'field list'
+CRITICAL - 2025-05-07 10:11:02 --> Call to a member function getFirstRow() on bool
+#0 J:\My Drive\YEOMAN\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 J:\My Drive\YEOMAN\app\Models\M_petugas.php(100): CodeIgniter\BaseModel->first()
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(675): App\Models\M_petugas->getPetugasDetail('6')
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('6')
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+ERROR - 2025-05-07 10:14:57 --> Unknown column 'petugas' in 'field list'
+CRITICAL - 2025-05-07 10:14:57 --> Call to a member function getRow() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(675): App\Models\M_petugas->getPetugasDetail('6')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('6')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-07 10:15:09 --> Unknown column 'petugas' in 'field list'
+CRITICAL - 2025-05-07 10:15:09 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(675): App\Models\M_petugas->getPetugasDetail('6')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('6')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 10:22:02 --> Call to a member function saveLog() on null
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas('6')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 10:23:24 --> Too few arguments to function App\Controllers\Home::detail_petugas(), 0 passed in J:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 10:23:42 --> Too few arguments to function App\Controllers\Home::detail_petugas(), 0 passed in J:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->detail_petugas()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:16:44 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, array given, called in J:\My Drive\YEOMAN\app\Controllers\Home.php on line 388
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(388): CodeIgniter\Model->insert('pelanggan', Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpan_pelanggan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 11:16:54 --> Argument 2 passed to CodeIgniter\Model::insert() must be of the type bool, array given, called in J:\My Drive\YEOMAN\app\Controllers\Home.php on line 388
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(388): CodeIgniter\Model->insert('pelanggan', Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpan_pelanggan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-07 11:25:38 --> Invalid file: adminfooter.php
+#0 J:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('adminfooter.php')
+#1 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('adminfooter', Array, true)
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(427): view('adminfooter')
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->edit_pelanggan('3')
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+ERROR - 2025-05-07 11:30:00 --> Column 'harga' cannot be null
+CRITICAL - 2025-05-07 11:35:38 --> Invalid file: detailpelangganyeoaman.php
+#0 J:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detailpelanggan...')
+#1 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('detailpelanggan...', Array, true)
+#2 J:\My Drive\YEOMAN\app\Controllers\Home.php(510): view('detailpelanggan...', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->dihapus_pelanggan()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-07 11:38:53 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:38:58 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:01 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:05 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:08 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:10 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:12 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:13 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:15 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:17 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:18 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:20 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:22 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:23 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:25 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:27 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:28 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:30 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:31 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:33 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:35 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:37 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:39 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:40 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:42 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:43 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:39:53 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:40:37 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:40:38 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:42:00 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:42:03 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 11:46:17 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-07 12:06:51 --> Too few arguments to function App\Models\M_petugas::tambah(), 1 passed in K:\My Drive\YEOMAN\app\Controllers\Home.php on line 578 and exactly 2 expected
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(578): App\Models\M_petugas->tambah(Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpan_petugas()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}

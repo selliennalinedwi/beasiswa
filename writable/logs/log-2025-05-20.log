@@ -1,0 +1,290 @@
+CRITICAL - 2025-05-20 19:40:49 --> Undefined variable $no_produk_found
+#0 J:\My Drive\YEOMAN\app\Views\deletedproduk.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 13)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('deletedproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(263): view('deletedproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->deletedproduk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 19:41:20 --> Undefined variable $no_produk_found
+#0 J:\My Drive\YEOMAN\app\Views\deletedproduk.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 13)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('deletedproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(263): view('deletedproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->deletedproduk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 19:45:40 --> Undefined property: stdClass::$nama_kategori
+#0 J:\My Drive\YEOMAN\app\Views\deletedproduk.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 43)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('deletedproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(266): view('deletedproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->deletedproduk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 19:46:46 --> Undefined property: stdClass::$nama_kategori
+#0 J:\My Drive\YEOMAN\app\Views\deletedproduk.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 43)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('deletedproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(267): view('deletedproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->deletedproduk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 19:52:19 --> Undefined property: App\Controllers\Barang::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Barang.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 28)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->barangmasuk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 19:53:23 --> Undefined property: stdClass::$gambar
+#0 J:\My Drive\YEOMAN\app\Views\eproduk.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 16)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('eproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(151): view('eproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('13')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 19:55:55 --> Attempt to read property "gambar" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 192)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpan_produk('13')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 19:56:21 --> Attempt to read property "gambar" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 168)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpan_produk('13')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 19:56:41 --> Attempt to read property "foto" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 168)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpan_produk('13')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 19:57:05 --> Attempt to read property "foto" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(168): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 168)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpan_produk('13')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 20:32:29 --> Undefined property: App\Controllers\Kategori::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 27)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->index()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 20:36:40 --> Undefined property: App\Controllers\Kategori::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 30)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->index()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 20:41:53 --> Undefined variable $id_kategori
+#0 J:\My Drive\YEOMAN\app\Views\inputkategori.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 10)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('inputkategori', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(63): view('inputkategori', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->inputkategori()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 20:44:48 --> Undefined variable $id_kategori
+#0 J:\My Drive\YEOMAN\app\Views\editkategori.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 10)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('editkategori', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(106): view('editkategori', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->editkategori('2')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 20:48:29 --> Attempt to read property "nama_kategori" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 127)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->savekategori('2')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 20:48:45 --> Attempt to read property "nama_kategori" on array
+#0 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'J:\\My Drive\\YEO...', 125)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->savekategori('2')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-20 22:44:50 --> Error connecting to the database: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+CRITICAL - 2025-05-20 22:44:50 --> Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 J:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 J:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 J:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 J:\My Drive\YEOMAN\app\Controllers\User.php(14): App\Models\Yeoman->getWebDetails()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\User->__construct()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-20 22:48:21 --> Undefined property: App\Controllers\Barang::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Barang.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 196)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->deletedbarangm()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 22:48:32 --> Undefined property: App\Controllers\Barang::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Barang.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 393)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->deletedbarangk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 22:48:38 --> Undefined property: App\Controllers\Barang::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Barang.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 196)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->deletedbarangm()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 22:48:50 --> Undefined property: App\Controllers\Barang::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Barang.php(393): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 393)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->deletedbarangk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 22:51:48 --> Undefined variable $no_produk_found
+#0 J:\My Drive\YEOMAN\app\Views\deletedkategori.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 13)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('deletedkategori', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(194): view('deletedkategori', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->deletedkategori()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 22:52:44 --> syntax error, unexpected token "endif", expecting end of file
+#0 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('deletedkategori', Array, true)
+#2 J:\My Drive\YEOMAN\app\Controllers\Kategori.php(194): view('deletedkategori', Array)
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Kategori->deletedkategori()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-20 22:53:36 --> Undefined property: App\Controllers\Barang::$webDetail
+#0 J:\My Drive\YEOMAN\app\Controllers\Barang.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 28)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->barangmasuk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-20 22:59:03 --> Undefined variable $produk
+#0 J:\My Drive\YEOMAN\app\Views\barang\ibarangmasuk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 19)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('barang/ibarangm...', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Barang.php(63): view('barang/ibarangm...', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->inputbarangm()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 23:27:15 --> Call to undefined function bbase_url()
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('barang/barangke...', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Barang.php(231): view('barang/barangke...', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->barangkeluar()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-20 23:46:14 --> Undefined variable $no
+#0 J:\My Drive\YEOMAN\app\Views\pemesanan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 45)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(211): view('pemesanan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 23:46:44 --> Undefined variable $no
+#0 J:\My Drive\YEOMAN\app\Views\pemesanan.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 45)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('pemesanan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(211): view('pemesanan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-20 23:57:53 --> Undefined array key "nama_user"
+#0 J:\My Drive\YEOMAN\app\Views\user\profile.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'J:\\My Drive\\YEO...', 18)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('user/profile', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\User.php(235): view('user/profile', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->profile()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}

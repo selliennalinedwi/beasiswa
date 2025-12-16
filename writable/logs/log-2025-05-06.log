@@ -1,0 +1,136 @@
+CRITICAL - 2025-05-06 21:48:52 --> Call to undefined method App\Models\M_petugas::softDelete
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(506): CodeIgniter\Model->__call('softDelete', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->deletePe('1')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-06 21:49:16 --> Call to undefined method App\Models\M_petugas::restore
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(492): CodeIgniter\Model->__call('restore', Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->restorePe('2')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-06 21:56:34 --> include(): Failed opening 'K:\My Drive\YEOMAN\app\Config/../Views\editpelangganyeoman.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): Fail...', 'K:\\My Drive\\YEO...', 210, Array)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('editpelangganye...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Home.php(356): view('editpelangganye...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpelangganyeoman('1')
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-06 21:57:26 --> include(): Failed opening 'K:\My Drive\YEOMAN\app\Config/../Views\editpelangganyeoman.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): Fail...', 'K:\\My Drive\\YEO...', 210, Array)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('editpelangganye...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Home.php(356): view('editpelangganye...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->editpelangganyeoman('1')
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-06 21:58:01 --> include_once(): Failed opening 'K:\My Drive\YEOMAN\app\Models\M_pelanggan.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once():...', 'K:\\My Drive\\YEO...', 264, Array)
+#1 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(264): include_once()
+#2 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('K:\\My Drive\\YEO...')
+#3 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_pe...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_pe...')
+#5 K:\My Drive\YEOMAN\app\Controllers\Home.php(394): spl_autoload_call('App\\Models\\M_pe...')
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->deleteP('1')
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#11 {main}
+CRITICAL - 2025-05-06 21:58:26 --> include(): Failed opening 'K:\My Drive\YEOMAN\app\Config/../Views\inputpelangganyeoman.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(): Fail...', 'K:\\My Drive\\YEO...', 210, Array)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('inputpelanggany...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Home.php(347): view('inputpelanggany...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->inputpelangganyeoman()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-06 21:59:46 --> include_once(): Failed opening 'K:\My Drive\YEOMAN\app\Models\PemesananModel.php' for inclusion (include_path='C:\xampp\php\PEAR')
+#0 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once():...', 'K:\\My Drive\\YEO...', 264, Array)
+#1 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(264): include_once()
+#2 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('K:\\My Drive\\YEO...')
+#3 K:\My Drive\YEOMAN\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Peme...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Peme...')
+#5 K:\My Drive\YEOMAN\app\Controllers\Home.php(189): spl_autoload_call('App\\Models\\Peme...')
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#11 {main}
+CRITICAL - 2025-05-06 22:01:53 --> Class 'App\Models\BaseController' not found
+#0 K:\My Drive\YEOMAN\system\Router\Router.php(518): include_once()
+#1 K:\My Drive\YEOMAN\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/pemesanan')
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-06 22:04:42 --> Class 'App\Models\BaseController' not found
+#0 K:\My Drive\YEOMAN\system\Router\Router.php(518): include_once()
+#1 K:\My Drive\YEOMAN\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/pemesanan')
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-06 22:04:47 --> Class 'App\Models\BaseController' not found
+#0 K:\My Drive\YEOMAN\system\Router\Router.php(518): include_once()
+#1 K:\My Drive\YEOMAN\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/pemesanan')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/pemesanan')
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-06 22:06:42 --> Class 'App\Controllers\M_absen' not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->inputpemesanan()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-06 22:06:47 --> Class 'App\Controllers\M_absen' not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->inputpemesanan()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-06 22:09:01 --> Class 'App\Models\User' not found
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanpemesanan()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-05-06 22:33:55 --> Unknown column 'gambar' in 'field list'
+ERROR - 2025-05-06 22:36:24 --> Unknown column 'gambar' in 'field list'
+ERROR - 2025-05-06 22:36:54 --> Unknown column 'gambar' in 'field list'
+CRITICAL - 2025-05-06 22:37:23 --> Too few arguments to function App\Controllers\Produk::edit_produk(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}

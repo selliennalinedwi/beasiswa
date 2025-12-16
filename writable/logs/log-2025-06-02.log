@@ -1,0 +1,191 @@
+CRITICAL - 2025-06-02 06:32:25 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(87): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 06:33:09 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(87): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:11:37 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(87): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:15:16 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(87): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:17:49 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(86): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:18:11 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(86): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:18:32 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(86): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:24:14 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(86): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:25:18 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('edit_psg', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(86): view('edit_psg', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->edit_pemasangan('62')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-02 07:50:31 --> Undefined variable $harga
+#0 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 116)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->update_pemasangan('62')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-02 07:51:07 --> Undefined variable $i
+#0 J:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 118)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->update_pemasangan('62')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-02 08:44:54 --> Undefined property: stdClass::$stok_produk
+#0 J:\My Drive\YEOMAN\app\Views\deletedproduk.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 41)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('deletedproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(348): view('deletedproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->deletedproduk()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-02 08:47:47 --> Undefined property: stdClass::$stok_produk
+#0 J:\My Drive\YEOMAN\app\Views\eproduk.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'J:\\My Drive\\YEO...', 52)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('eproduk', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Produk.php(202): view('eproduk', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->edit_produk('68')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-02 08:53:36 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpan_produk('69')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-06-02 09:07:14 --> Unknown column 'stok_produk' in 'field list'
+ERROR - 2025-06-02 09:09:34 --> Unknown column 'stok_produk' in 'field list'
+CRITICAL - 2025-06-02 09:38:56 --> Undefined property: App\Controllers\Home::$pemesananModel
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 230)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-02 09:45:13 --> Undefined property: App\Controllers\Home::$M_pemesanan
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 230)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-02 09:50:39 --> Undefined property: App\Controllers\Home::$PemesananModel
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(231): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 231)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-06-02 11:02:05 --> Unknown column 'stok_int' in 'where clause'
+CRITICAL - 2025-06-02 11:02:05 --> Call to a member function getResult() on bool
+#0 K:\My Drive\YEOMAN\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 K:\My Drive\YEOMAN\app\Models\M_produk.php(267): CodeIgniter\BaseModel->findAll()
+#2 K:\My Drive\YEOMAN\app\Controllers\Home.php(405): App\Models\M_produk->getProdukTersedia()
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->inputpemesanan()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-06-02 11:07:14 --> Undefined variable $id_pemesanan
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(223): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 223)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->simpanbukti()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}

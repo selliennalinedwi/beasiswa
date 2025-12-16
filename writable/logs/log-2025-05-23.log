@@ -1,0 +1,301 @@
+CRITICAL - 2025-05-23 06:54:35 --> Undefined variable $hee
+#0 J:\My Drive\YEOMAN\app\Controllers\Home.php(224): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 224)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 08:15:57 --> Cannot use object of type stdClass as array
+#0 J:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('inputpemesanan', Array, true)
+#3 J:\My Drive\YEOMAN\app\Controllers\Home.php(260): view('inputpemesanan', Array)
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->inputpemesanan()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-23 08:52:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-05-23 08:52:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 K:\My Drive\YEOMAN\app\Controllers\Home.php(26): App\Models\Yeoman->getWebDetails()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-23 08:52:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-05-23 08:52:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(46): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 K:\My Drive\YEOMAN\app\Controllers\Login.php(67): App\Models\Yeoman->getWhere('user', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Login->aksi_login()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-23 09:03:30 --> Invalid file: inputpemasukan.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inputpemasukan....')
+#1 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('inputpemasukan', Array, true)
+#2 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(87): view('inputpemasukan', Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->inputpemasukan()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+CRITICAL - 2025-05-23 09:03:45 --> Undefined variable $kategori
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\inputpemasukan.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 33)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/inputp...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(87): view('keuangan/inputp...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->inputpemasukan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 09:07:13 --> Undefined variable $produk
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\inputpemasukan.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 96)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/inputp...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(87): view('keuangan/inputp...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->inputpemasukan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 09:16:32 --> Undefined property: stdClass::$id_produk
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\pemasukan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 51)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/pemasu...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(69): view('keuangan/pemasu...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->pemasukan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 09:17:56 --> Undefined property: stdClass::$id_produk
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\pemasukan.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 51)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/pemasu...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(69): view('keuangan/pemasu...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->pemasukan()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 09:40:20 --> Attempt to read property "id_petugas" on array
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\inputgaji.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'K:\\My Drive\\YEO...', 24)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/inputg...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(197): view('keuangan/inputg...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->inputgaji()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 09:41:17 --> Attempt to read property "id_petugas" on array
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\inputgaji.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'K:\\My Drive\\YEO...', 24)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/inputg...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(197): view('keuangan/inputg...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->inputgaji()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 09:46:51 --> Undefined variable $newName
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(225): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 225)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->simpangaji()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 10:11:57 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editpe...', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(144): view('keuangan/editpe...', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editpemasukan('5')
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-23 10:18:56 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editpe...', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(144): view('keuangan/editpe...', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editpemasukan('5')
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-23 10:45:21 --> Undefined property: App\Controllers\Keuangan::$M_keuangan
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(150): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 150)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->savepemasukan('5')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 10:47:02 --> Call to a member function find() on null
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->savepemasukan('5')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-23 10:47:38 --> Attempt to read property "bukti" on array
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'K:\\My Drive\\YEO...', 173)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->savepemasukan('5')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 10:48:05 --> Attempt to read property "bukti" on array
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'K:\\My Drive\\YEO...', 173)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->savepemasukan('5')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 10:49:18 --> Undefined property: App\Controllers\Keuangan::$keuanganModel
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(184): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'K:\\My Drive\\YEO...', 184)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->savepemasukan('5')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 10:50:25 --> Attempt to read property "bukti" on array
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'K:\\My Drive\\YEO...', 179)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->savepemasukan('5')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 11:15:07 --> Undefined variable $gaji
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\editgaji.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 11)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editga...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(451): view('keuangan/editga...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 11:15:21 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editga...', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(451): view('keuangan/editga...', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-23 11:16:36 --> Undefined variable $petugas
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\editgaji.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 23)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editga...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(451): view('keuangan/editga...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-23 11:17:35 --> Cannot access offset of type string on string
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editga...', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(454): view('keuangan/editga...', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-23 11:18:40 --> Undefined variable $gaji
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(444): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 444)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-23 11:20:23 --> Unknown column 'petugas.id_petugass' in 'where clause'
+CRITICAL - 2025-05-23 11:20:23 --> Call to a member function getRow() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(433): App\Models\M_keuangan->getwhere2('7')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-23 11:20:34 --> Unknown column 'petugas.id_petugass' in 'where clause'
+CRITICAL - 2025-05-23 11:20:34 --> Call to a member function getRow() on bool
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(433): App\Models\M_keuangan->getwhere2('7')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-23 11:22:41 --> Cannot access offset of type string on string
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editga...', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(455): view('keuangan/editga...', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-23 11:24:00 --> Attempt to read property "id_petugas" on string
+#0 K:\My Drive\YEOMAN\app\Views\keuangan\editgaji.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'K:\\My Drive\\YEO...', 24)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('keuangan/editga...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(455): view('keuangan/editga...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->editgaji('7')
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-05-23 23:04:26 --> Unknown column 'created_at' in 'field list'
+ERROR - 2025-05-23 23:04:27 --> Unknown column 'created_at' in 'field list'

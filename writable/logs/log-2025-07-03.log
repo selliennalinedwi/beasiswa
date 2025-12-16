@@ -1,0 +1,18 @@
+CRITICAL - 2025-07-03 03:40:36 --> Failed opening required 'I:\My Drive\bukanotaa\app\Config/Routes.php' (include_path='C:\xampp\php\PEAR')
+#0 I:\My Drive\bukanotaa\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 I:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 I:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 I:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\buk...')
+#4 {main}
+CRITICAL - 2025-07-03 03:40:36 --> Uncaught ErrorException: file_get_contents(I:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'I:\\My Drive\\buk...', 19)
+#1 I:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('I:\\My Drive\\buk...')
+#2 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('I:\\My Drive\\buk...')
+#3 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 I:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

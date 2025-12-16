@@ -1,0 +1,221 @@
+ERROR - 2025-06-05 02:47:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-06-05 02:47:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 K:\My Drive\YEOMAN\app\Controllers\Home.php(28): App\Models\Yeoman->getWebDetails()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-06-05 02:53:43 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-06-05 02:53:43 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(46): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 K:\My Drive\YEOMAN\app\Controllers\Login.php(67): App\Models\Yeoman->getWhere('user', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Login->aksi_login()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-06-05 02:58:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-06-05 02:58:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(46): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 K:\My Drive\YEOMAN\app\Controllers\Login.php(67): App\Models\Yeoman->getWhere('user', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Login->aksi_login()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-06-05 02:58:54 --> Undefined array key "tipe_diskon"
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(440): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'K:\\My Drive\\YEO...', 440)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-05 02:59:49 --> Undefined variable $i
+#0 J:\My Drive\YEOMAN\app\Views\inputpemesanan.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 66)
+#1 J:\My Drive\YEOMAN\system\View\View.php(210): include('J:\\My Drive\\YEO...')
+#2 J:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 J:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('inputpemesanan', Array, true)
+#4 J:\My Drive\YEOMAN\app\Controllers\Home.php(516): view('inputpemesanan', Array)
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->inputpemesanan()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-06-05 05:17:02 --> Gagal simpan pemesanan: Nama produk manual di baris ke-1 kosong.
+ERROR - 2025-06-05 05:18:53 --> Gagal simpan pemesanan: Nama produk manual di baris ke-1 kosong.
+ERROR - 2025-06-05 05:21:47 --> Gagal simpan pemesanan: Nama produk manual di baris ke-1 kosong.
+ERROR - 2025-06-05 05:22:55 --> Gagal simpan pemesanan: Nama produk manual di baris ke-1 kosong.
+CRITICAL - 2025-06-05 05:25:40 --> Call to undefined function App\Controllers\terbilang()
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('1')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-06-05 06:57:03 --> TES LOG INSERT DETAIL [0] => {"id_pemesanan":4,"id_produk":"21","nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"persen","created_by":"6"}
+CRITICAL - 2025-06-05 07:04:26 --> Call to undefined function App\Controllers\terbilang()
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(832): App\Controllers\Keuangan->terbilang(7900000.0)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('1')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-05 07:04:38 --> Call to undefined function App\Controllers\terbilang()
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(832): App\Controllers\Keuangan->terbilang(7900000.0)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('1')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-05 07:05:08 --> Call to undefined function App\Controllers\terbilang()
+#0 K:\My Drive\YEOMAN\app\Controllers\Keuangan.php(832): App\Controllers\Keuangan->terbilang(7900000.0)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('1')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-05 07:06:17 --> Call to undefined method App\Controllers\Keuangan::terbilang()
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('1')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+ERROR - 2025-06-05 07:27:24 --> TES LOG INSERT DETAIL [0] => {"id_pemesanan":5,"id_produk":"21","nama_produk_manual":null,"jumlah":2,"harga":8500000,"diskon":0,"subtotal":17000000,"tipe_diskon":"persen","created_by":"6"}
+ERROR - 2025-06-05 07:29:59 --> Unknown column 'detail_pemesanan.nama_produk_manual' in 'field list'
+CRITICAL - 2025-06-05 07:29:59 --> Call to a member function getResult() on bool
+#0 K:\My Drive\YEOMAN\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 K:\My Drive\YEOMAN\app\Models\DetailPemesananModel.php(18): CodeIgniter\BaseModel->findAll()
+#2 K:\My Drive\YEOMAN\app\Controllers\Home.php(434): App\Models\DetailPemesananModel->getDetailWithProduk(Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pemesanan()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+ERROR - 2025-06-05 07:33:28 --> TES LOG INSERT DETAIL [0] => {"id_pemesanan":6,"id_produk":"21","nama_produk_manual":null,"jumlah":2,"harga":8500000,"diskon":0,"subtotal":17000000,"tipe_diskon":"persen","created_by":"6"}
+ERROR - 2025-06-05 07:35:59 --> TES LOG INSERT DETAIL [0] => {"id_pemesanan":7,"id_produk":"21","nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"persen","created_by":"6"}
+CRITICAL - 2025-06-05 07:45:54 --> Undefined variable $hee
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 95)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-05 07:45:58 --> Undefined variable $hee
+#0 K:\My Drive\YEOMAN\app\Controllers\Home.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'K:\\My Drive\\YEO...', 95)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->pembayaran()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-06-05 08:06:54 --> Class "ZipArchive" not found
+#0 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://file/temp...')
+#1 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(84): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('file/template-i...', '_rels/.rels')
+#2 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(155): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('file/template-i...')
+#3 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('file/template-i...', NULL)
+#4 J:\My Drive\YEOMAN\app\Controllers\Keuangan.php(742): PhpOffice\PhpSpreadsheet\IOFactory::load('file/template-i...')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('7')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-06-05 08:12:26 --> TES LOG INSERT DETAIL [0] => {"id_pemesanan":8,"id_produk":"21","nama_produk_manual":null,"jumlah":2,"harga":8500000,"diskon":0,"subtotal":17000000,"tipe_diskon":"persen","created_by":"6"}
+CRITICAL - 2025-06-05 08:12:38 --> Class "ZipArchive" not found
+#0 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://file/temp...')
+#1 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(84): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('file/template-i...', '_rels/.rels')
+#2 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(155): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('file/template-i...')
+#3 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('file/template-i...', NULL)
+#4 J:\My Drive\YEOMAN\app\Controllers\Keuangan.php(742): PhpOffice\PhpSpreadsheet\IOFactory::load('file/template-i...')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('8')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-05 08:14:08 --> Class "ZipArchive" not found
+#0 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://file/temp...')
+#1 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(84): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('file/template-i...', '_rels/.rels')
+#2 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(155): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('file/template-i...')
+#3 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('file/template-i...', NULL)
+#4 J:\My Drive\YEOMAN\app\Controllers\Keuangan.php(742): PhpOffice\PhpSpreadsheet\IOFactory::load('file/template-i...')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('4')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-05 08:21:53 --> Class "ZipArchive" not found
+#0 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://file/temp...')
+#1 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(84): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('file/template-i...', '_rels/.rels')
+#2 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(155): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('file/template-i...')
+#3 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('file/template-i...', NULL)
+#4 J:\My Drive\YEOMAN\app\Controllers\Keuangan.php(742): PhpOffice\PhpSpreadsheet\IOFactory::load('file/template-i...')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('1')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-06-05 08:24:24 --> Class "ZipArchive" not found
+#0 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://file/temp...')
+#1 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(84): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('file/template-i...', '_rels/.rels')
+#2 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(155): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('file/template-i...')
+#3 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('file/template-i...', NULL)
+#4 J:\My Drive\YEOMAN\app\Controllers\Keuangan.php(742): PhpOffice\PhpSpreadsheet\IOFactory::load('file/template-i...')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('1')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-06-05 08:26:14 --> TES LOG INSERT DETAIL [0] => {"id_pemesanan":9,"id_produk":"21","nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"persen","created_by":"6"}
+ERROR - 2025-06-05 08:38:23 --> Gagal simpan pemesanan: Attempt to read property "id_pelanggan" on array
+ERROR - 2025-06-05 08:51:49 --> DEBUG AKHIR INSERT: {"id_pemesanan":12,"id_produk":21,"nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"persen","created_by":"6"}
+ERROR - 2025-06-05 08:51:49 --> SUKSES INSERT DETAIL: {"id_pemesanan":12,"id_produk":21,"nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"persen","created_by":"6"}
+ERROR - 2025-06-05 09:21:11 --> DEBUG AKHIR INSERT: {"id_pemesanan":13,"id_produk":21,"nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"","created_by":"6"}
+ERROR - 2025-06-05 09:21:11 --> SUKSES INSERT DETAIL: {"id_pemesanan":13,"id_produk":21,"nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"","created_by":"6"}
+ERROR - 2025-06-05 09:21:11 --> DEBUG AKHIR INSERT: {"id_pemesanan":13,"id_produk":null,"nama_produk_manual":"Lego","jumlah":1,"harga":100000,"diskon":0,"subtotal":100000,"tipe_diskon":"","created_by":"6"}
+ERROR - 2025-06-05 09:21:11 --> Column 'id_produk' cannot be null
+ERROR - 2025-06-05 09:21:11 --> GAGAL INSERT DETAIL: {"CodeIgniter\\Database\\MySQLi\\Connection":"Column 'id_produk' cannot be null"}
+ERROR - 2025-06-05 09:22:43 --> DEBUG AKHIR INSERT: {"id_pemesanan":14,"id_produk":21,"nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"","created_by":"6"}
+ERROR - 2025-06-05 09:22:43 --> SUKSES INSERT DETAIL: {"id_pemesanan":14,"id_produk":21,"nama_produk_manual":null,"jumlah":1,"harga":8500000,"diskon":0,"subtotal":8500000,"tipe_diskon":"","created_by":"6"}
+ERROR - 2025-06-05 09:22:43 --> DEBUG AKHIR INSERT: {"id_pemesanan":14,"id_produk":null,"nama_produk_manual":"Lego","jumlah":1,"harga":100000,"diskon":0,"subtotal":100000,"tipe_diskon":"","created_by":"6"}
+ERROR - 2025-06-05 09:22:43 --> SUKSES INSERT DETAIL: {"id_pemesanan":14,"id_produk":null,"nama_produk_manual":"Lego","jumlah":1,"harga":100000,"diskon":0,"subtotal":100000,"tipe_diskon":"","created_by":"6"}
+CRITICAL - 2025-06-05 09:23:00 --> Class "ZipArchive" not found
+#0 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php(188): PhpOffice\PhpSpreadsheet\Shared\File::fileExists('zip://file/temp...')
+#1 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(84): PhpOffice\PhpSpreadsheet\Shared\File::testFileNoThrow('file/template-i...', '_rels/.rels')
+#2 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(155): PhpOffice\PhpSpreadsheet\Reader\Xlsx->canRead('file/template-i...')
+#3 J:\My Drive\YEOMAN\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('file/template-i...', NULL)
+#4 J:\My Drive\YEOMAN\app\Controllers\Keuangan.php(742): PhpOffice\PhpSpreadsheet\IOFactory::load('file/template-i...')
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Keuangan->invoice('14')
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Keuangan))
+#7 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#10 {main}
+ERROR - 2025-06-05 09:43:48 --> Gagal simpan pemesanan: Data produk tidak lengkap.
+ERROR - 2025-06-05 09:47:29 --> Gagal simpan pemesanan: Subtotal untuk produk ke-0 tidak tersedia.
+ERROR - 2025-06-05 09:51:49 --> Column 'tipe_diskon' cannot be null

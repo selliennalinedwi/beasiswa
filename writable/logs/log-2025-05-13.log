@@ -1,0 +1,110 @@
+ERROR - 2025-05-13 04:49:38 --> Error connecting to the database: Unknown database 'yn'
+CRITICAL - 2025-05-13 04:49:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'yn'
+#0 I:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 I:\My Drive\YEOMAN\app\Controllers\Home.php(24): App\Models\Yeoman->getWebDetails()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-13 04:49:48 --> Error connecting to the database: Unknown database 'yn'
+CRITICAL - 2025-05-13 04:49:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'yn'
+#0 I:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 I:\My Drive\YEOMAN\app\Controllers\Home.php(24): App\Models\Yeoman->getWebDetails()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-13 04:49:58 --> Error connecting to the database: Unknown database 'yn'
+CRITICAL - 2025-05-13 04:49:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'yn'
+#0 I:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 I:\My Drive\YEOMAN\app\Controllers\Home.php(24): App\Models\Yeoman->getWebDetails()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-13 04:50:11 --> Error connecting to the database: Unknown database 'yn'
+CRITICAL - 2025-05-13 04:50:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'yn'
+#0 I:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 I:\My Drive\YEOMAN\app\Controllers\Home.php(24): App\Models\Yeoman->getWebDetails()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-05-13 04:50:56 --> Error connecting to the database: Unknown database 'yn'
+CRITICAL - 2025-05-13 04:50:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'yn'
+#0 I:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 I:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 I:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 I:\My Drive\YEOMAN\app\Controllers\Home.php(24): App\Models\Yeoman->getWebDetails()
+#4 I:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 I:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-13 05:25:18 --> Argument 2 passed to view() must be of the type array, null given, called in I:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 I:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-13 05:25:32 --> Argument 2 passed to view() must be of the type array, null given, called in I:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 I:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-13 05:26:30 --> Argument 2 passed to view() must be of the type array, null given, called in I:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 I:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-13 05:27:25 --> Argument 2 passed to view() must be of the type array, null given, called in I:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 I:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-13 05:27:33 --> Argument 2 passed to view() must be of the type array, null given, called in I:\My Drive\YEOMAN\app\Controllers\admin.php on line 32
+#0 I:\My Drive\YEOMAN\app\Controllers\admin.php(32): view('admin/header', NULL, Array)
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\admin->index()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\admin))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-13 06:09:24 --> Unknown column 'old' in 'field list'
+ERROR - 2025-05-13 06:10:01 --> Unknown column 'old' in 'field list'
+ERROR - 2025-05-13 06:14:57 --> Unknown column 'old' in 'field list'
+ERROR - 2025-05-13 06:15:18 --> Unknown column 'old' in 'field list'
+ERROR - 2025-05-13 06:18:24 --> Unknown column 'old' in 'field list'

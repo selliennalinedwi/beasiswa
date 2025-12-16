@@ -1,0 +1,66 @@
+ERROR - 2025-04-28 07:13:59 --> Unknown column 'pemasangan.id_pembayaran' in 'on clause'
+CRITICAL - 2025-04-28 07:13:59 --> Call to a member function getResult() on bool
+#0 I:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(36): App\Models\M_pemasangan->getPemasangan()
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-04-28 07:14:52 --> Unknown column 'pemasangan.id_pembayaran' in 'on clause'
+CRITICAL - 2025-04-28 07:14:52 --> Call to a member function getResult() on bool
+#0 I:\My Drive\YEOMAN\app\Controllers\Pemasangan.php(36): App\Models\M_pemasangan->getPemasangan()
+#1 I:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Pemasangan->tabel_pemasangan()
+#2 I:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pemasangan))
+#3 I:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 I:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 I:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('I:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-04-28 08:06:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-28 08:06:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 J:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 J:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 J:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 J:\My Drive\YEOMAN\app\Controllers\Home.php(16): App\Models\Yeoman->getWebDetails()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-04-28 08:06:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-04-28 08:06:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 J:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 J:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 J:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 J:\My Drive\YEOMAN\app\Controllers\Home.php(16): App\Models\Yeoman->getWebDetails()
+#4 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#9 {main}
+ERROR - 2025-04-28 08:06:44 --> Table 'yeoman.web_detail' doesn't exist
+CRITICAL - 2025-04-28 08:06:44 --> Call to a member function getRowArray() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\admin.php(11): App\Models\Yeoman->getWebDetails()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\admin->__construct()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-04-28 08:08:36 --> Table 'yeoman.web_detail' doesn't exist
+CRITICAL - 2025-04-28 08:08:36 --> Call to a member function getRowArray() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\admin.php(11): App\Models\Yeoman->getWebDetails()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\admin->__construct()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}

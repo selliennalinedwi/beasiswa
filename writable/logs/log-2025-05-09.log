@@ -1,0 +1,179 @@
+CRITICAL - 2025-05-09 00:02:20 --> Cannot use object of type stdClass as array
+#0 K:\My Drive\YEOMAN\system\View\View.php(210): include()
+#1 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('barang/ebarangm...', Array, true)
+#3 K:\My Drive\YEOMAN\app\Controllers\Barang.php(107): view('barang/ebarangm...', Array)
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->editbarangm('1')
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-09 00:06:04 --> Too few arguments to function App\Controllers\Barang::savebarangm(), 0 passed in K:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->savebarangm()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 00:06:53 --> Call to a member function update() on null
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->savebarangm('1')
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 00:08:23 --> Invalid file: barang/deletedbarangm.php
+#0 K:\My Drive\YEOMAN\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/deletedb...')
+#1 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('barang/deletedb...', Array, true)
+#2 K:\My Drive\YEOMAN\app\Controllers\Barang.php(198): view('barang/deletedb...', Array)
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->deletedbarangm()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#8 {main}
+ERROR - 2025-05-09 04:19:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-05-09 04:19:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `barang_...', Array, false)
+#2 K:\My Drive\YEOMAN\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 K:\My Drive\YEOMAN\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 K:\My Drive\YEOMAN\app\Models\M_barangkeluar.php(60): CodeIgniter\BaseModel->findAll()
+#5 K:\My Drive\YEOMAN\app\Controllers\Barang.php(214): App\Models\M_barangkeluar->getAllWithProduk()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->barangkeluar()
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#11 {main}
+ERROR - 2025-05-09 04:33:09 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-05-09 04:33:09 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 K:\My Drive\YEOMAN\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 K:\My Drive\YEOMAN\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 K:\My Drive\YEOMAN\app\Models\Yeoman.php(73): CodeIgniter\Database\BaseBuilder->get()
+#3 K:\My Drive\YEOMAN\app\Controllers\Home.php(24): App\Models\Yeoman->getWebDetails()
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#9 {main}
+CRITICAL - 2025-05-09 04:58:17 --> Invalid argument supplied for foreach()
+#0 K:\My Drive\YEOMAN\app\Views\barang\ibarangkeluar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'K:\\My Drive\\YEO...', 21, Array)
+#1 K:\My Drive\YEOMAN\system\View\View.php(210): include('K:\\My Drive\\YEO...')
+#2 K:\My Drive\YEOMAN\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 K:\My Drive\YEOMAN\system\Common.php(1089): CodeIgniter\View\View->render('barang/ibarangk...', Array, true)
+#4 K:\My Drive\YEOMAN\app\Controllers\Barang.php(251): view('barang/ibarangk...', Array)
+#5 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->inputbarangk()
+#6 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#7 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#10 {main}
+CRITICAL - 2025-05-09 05:00:03 --> Argument 2 passed to view() must be of the type array, null given, called in K:\My Drive\YEOMAN\app\Controllers\Barang.php on line 300
+#0 K:\My Drive\YEOMAN\app\Controllers\Barang.php(300): view('admin/header', NULL, Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->editbarangk('1')
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-09 05:01:02 --> array_merge(): Expected parameter 1 to be an array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'K:\\My Drive\\YEO...', 300, Array)
+#1 K:\My Drive\YEOMAN\app\Controllers\Barang.php(300): array_merge(NULL, Array)
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Barang->editbarangk('1')
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#4 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#7 {main}
+CRITICAL - 2025-05-09 05:36:08 --> Argument 2 passed to view() must be of the type array, null given, called in K:\My Drive\YEOMAN\app\Controllers\Produk.php on line 42
+#0 K:\My Drive\YEOMAN\app\Controllers\Produk.php(42): view('admin/header', NULL, Array)
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-09 05:50:44 --> Illegal parameter data types char and row for operation '='
+CRITICAL - 2025-05-09 05:50:44 --> Call to a member function getResultArray() on bool
+#0 K:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->export()
+#1 K:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 K:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 K:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 K:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('K:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 09:03:14 --> Call to undefined method App\Models\M_user::deletePermanen
+#0 J:\My Drive\YEOMAN\app\Controllers\User.php(163): CodeIgniter\Model->__call('deletePermanen', Array)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->hapusU('19')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-09 09:03:54 --> Call to undefined method App\Controllers\User::logActivity()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->hapusU('19')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 09:25:10 --> Call to undefined method App\Controllers\User::find()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->deleteU('17')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 09:31:37 --> Call to undefined method App\Controllers\User::find()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->deleteU('17')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 09:32:10 --> Call to undefined method App\Controllers\User::update()
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->deleteU('17')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 09:32:28 --> Object of class App\Models\M_user could not be converted to string
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\User->deleteU('17')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}
+CRITICAL - 2025-05-09 09:43:42 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 J:\My Drive\YEOMAN\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/user1')
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/user1')
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+ERROR - 2025-05-09 10:03:13 --> Table 'yeoman.kategori' doesn't exist
+CRITICAL - 2025-05-09 10:03:13 --> Call to a member function getResult() on bool
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(19): App\Models\M_produk->getProduk()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->produk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}
+CRITICAL - 2025-05-09 10:16:32 --> Too few arguments to function App\Controllers\Home::konfirmasi_pembayaran(), 0 passed in J:\My Drive\YEOMAN\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Home->konfirmasi_pembayaran()
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#5 {main}

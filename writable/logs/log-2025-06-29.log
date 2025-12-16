@@ -1,0 +1,73 @@
+CRITICAL - 2025-06-29 20:20:31 --> fwrite(): Write of 76 bytes failed with errno=22 Invalid argument
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): Write...', 'J:\\My Drive\\buk...', 995)
+#1 J:\My Drive\bukanotaa\system\CLI\CLI.php(995): fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#2 J:\My Drive\bukanotaa\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\e[0;32mCodeIgni...')
+#3 J:\My Drive\bukanotaa\system\Commands\Server\Serve.php(97): CodeIgniter\CLI\CLI::write('\e[0;32mCodeIgni...', 'green')
+#4 J:\My Drive\bukanotaa\system\Commands\Server\Serve.php(114): CodeIgniter\Commands\Server\Serve->run(Array)
+#5 J:\My Drive\bukanotaa\system\CLI\Commands.php(63): CodeIgniter\Commands\Server\Serve->run(Array)
+#6 J:\My Drive\bukanotaa\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('serve', Array)
+#7 J:\My Drive\bukanotaa\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#8 J:\My Drive\bukanotaa\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'serve')
+#9 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#10 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 J:\My Drive\bukanotaa\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#12 J:\My Drive\bukanotaa\spark(63): CodeIgniter\CLI\Console->run()
+#13 {main}
+CRITICAL - 2025-06-29 20:20:31 --> Uncaught ErrorException: fwrite(): Write of 34 bytes failed with errno=22 Invalid argument in J:\My Drive\bukanotaa\system\CLI\CLI.php:995
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'fwrite(): Write...', 'J:\\My Drive\\buk...', 995)
+#1 J:\My Drive\bukanotaa\system\CLI\CLI.php(995): fwrite(Resource id #2, '\e[0;37m\e[41m[Er...')
+#2 J:\My Drive\bukanotaa\system\CLI\CLI.php(364): CodeIgniter\CLI\CLI::fwrite(Resource id #2, '\e[0;37m\e[41m[Er...')
+#3 J:\My Drive\bukanotaa\app\Views\errors\cli\error_exception.php(6): CodeIgniter\CLI\CLI::write('\e[0;37m\e[41m[Er...', 'light_gray', 'red')
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#5 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-29 21:14:39 --> Invalid file: harga_view.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('harga_view.php')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('harga_view', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\harga.php(9): view('harga_view')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\Harga->index()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harga))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-06-29 21:14:40 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-06-29 21:15:13 --> Invalid file: harga_view.php
+#0 J:\My Drive\bukanotaa\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('harga_view.php')
+#1 J:\My Drive\bukanotaa\system\Common.php(1089): CodeIgniter\View\View->render('harga_view', Array, true)
+#2 J:\My Drive\bukanotaa\app\Controllers\harga.php(9): view('harga_view')
+#3 J:\My Drive\bukanotaa\system\CodeIgniter.php(832): App\Controllers\Harga->index()
+#4 J:\My Drive\bukanotaa\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Harga))
+#5 J:\My Drive\bukanotaa\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 J:\My Drive\bukanotaa\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 J:\My Drive\bukanotaa\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\buk...')
+#8 {main}
+CRITICAL - 2025-06-29 21:15:13 --> Uncaught ErrorException: file_get_contents(J:\My Drive\bukanotaa\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'J:\\My Drive\\buk...', 19)
+#1 J:\My Drive\bukanotaa\app\Views\errors\html\error_exception.php(19): file_get_contents('J:\\My Drive\\buk...')
+#2 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(234): include('J:\\My Drive\\buk...')
+#3 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 J:\My Drive\bukanotaa\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

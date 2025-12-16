@@ -1,0 +1,12 @@
+CRITICAL - 2025-08-15 00:12:51 --> Undefined array key "tingkat"
+#0 C:\Users\7U400.COM\Music\event\app\Views\pdf\hasilrombel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\7U400....', 56)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('pdf/hasilrombel', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(315): view('pdf/hasilrombel', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakRombel('7')
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}

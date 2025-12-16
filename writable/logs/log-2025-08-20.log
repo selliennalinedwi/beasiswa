@@ -1,0 +1,129 @@
+CRITICAL - 2025-08-20 15:09:25 --> Class "App\Models\MenuModel" not found
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(809): App\Controllers\Profile->__construct()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-20 15:09:39 --> Undefined property: App\Controllers\Profile::$M_belajar
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Profile.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 68)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Profile->index()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-20 16:13:59 --> Invalid file: login.php
+#0 C:\Users\7U400.COM\Pictures\event\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\Users\7U400.COM\Pictures\event\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\Users\7U400.COM\Pictures\event\app\Controllers\Olimpiade\Login.php(22): view('login', Array)
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(832): App\Controllers\Olimpiade\Login->index()
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olimpiade\Login))
+#5 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#8 {main}
+CRITICAL - 2025-08-20 16:49:27 --> Class "App\Models\M_log" not found
+#0 C:\Users\7U400.COM\Pictures\event\app\Controllers\Olimpiade\Login.php(63): log_activity('1', 'Berhasil login!')
+#1 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(832): App\Controllers\Olimpiade\Login->aksi_login()
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olimpiade\Login))
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-20 16:51:03 --> Class "App\Models\M_log" not found
+#0 C:\Users\7U400.COM\Pictures\event\app\Controllers\Olimpiade\Login.php(63): log_activity('1', 'Berhasil login!')
+#1 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(832): App\Controllers\Olimpiade\Login->aksi_login()
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olimpiade\Login))
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-20 16:51:34 --> Class "App\Models\M_log" not found
+#0 C:\Users\7U400.COM\Pictures\event\app\Controllers\Olimpiade\Login.php(63): log_activity('1', 'Berhasil login!')
+#1 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(832): App\Controllers\Olimpiade\Login->aksi_login()
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olimpiade\Login))
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-20 16:54:03 --> Class "App\Models\M_log" not found
+#0 C:\Users\7U400.COM\Pictures\event\app\Controllers\Olimpiade\Login.php(63): log_activity('1', 'Berhasil login!')
+#1 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(832): App\Controllers\Olimpiade\Login->aksi_login()
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Olimpiade\Login))
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-20 16:57:17 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('olimpiade/siswa')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('olimpiade/siswa')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-08-20 16:57:58 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('olimpiade/guru')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('olimpiade/guru')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-08-20 18:33:23 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('landing')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('landing')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-08-20 18:34:19 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('yap')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('yap')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-08-20 18:34:30 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('yap')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('yap')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-08-20 18:35:50 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('yap')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('yap')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-08-20 18:36:05 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('yap')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('yap')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+CRITICAL - 2025-08-20 18:36:47 --> Class "App\Controllers\BaseController" not found
+#0 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(518): include_once()
+#1 C:\Users\7U400.COM\Pictures\event\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('yap')
+#2 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('yap')
+#3 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\Users\7U400.COM\Pictures\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Pictures\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Pictures\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}

@@ -1,0 +1,52 @@
+CRITICAL - 2025-12-09 11:08:43 --> Attempt to read property "foto" on null
+#0 C:\Users\7U400.COM\Documents\kas\app\Views\kas\admin\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 69)
+#1 C:\Users\7U400.COM\Documents\kas\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Documents\kas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Documents\kas\system\Common.php(1089): CodeIgniter\View\View->render('kas/admin/heade...', Array, true)
+#4 C:\Users\7U400.COM\Documents\kas\app\Controllers\Kas\Halaman.php(42): view('kas/admin/heade...', Array)
+#5 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Halaman->index()
+#6 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Halaman))
+#7 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+ERROR - 2025-12-09 11:08:45 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-12-09 11:08:45 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-12-09 11:13:53 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-12-09 11:13:53 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-12-09 11:15:51 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-12-09 11:15:51 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-12-09 11:17:42 --> Unknown column 'transaksi.deleted_at' in 'where clause'
+CRITICAL - 2025-12-09 11:17:42 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-12-09 11:18:45 --> Unknown column 'transaksi.tanggal' in 'order clause'
+CRITICAL - 2025-12-09 11:18:45 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}

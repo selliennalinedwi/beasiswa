@@ -1,0 +1,240 @@
+CRITICAL - 2025-10-10 15:25:40 --> Undefined variable $startDate
+#0 C:\Users\7U400.COM\Documents\kas\app\Controllers\Kas\Dashboard.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 154)
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#3 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-10-10 15:25:42 --> Undefined variable $startDate
+#0 C:\Users\7U400.COM\Documents\kas\app\Controllers\Kas\Dashboard.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 154)
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#3 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-10-10 15:26:01 --> Undefined variable $startDate
+#0 C:\Users\7U400.COM\Documents\kas\app\Controllers\Kas\Dashboard.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 154)
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#3 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-10-10 15:26:30 --> Undefined variable $startDate
+#0 C:\Users\7U400.COM\Documents\kas\app\Controllers\Kas\Dashboard.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 154)
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#3 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-10-10 15:31:28 --> Undefined variable $startDate
+#0 C:\Users\7U400.COM\Documents\kas\app\Controllers\Kas\Dashboard.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 154)
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#3 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-10-10 15:42:27 --> Unknown column 'k.status_delete' in 'where clause'
+CRITICAL - 2025-10-10 15:42:27 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->getKategoriByRumah()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 15:48:56 --> Unknown column 'status_delete' in 'where clause'
+CRITICAL - 2025-10-10 15:48:56 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->getKategoriByRumah()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 15:49:23 --> Unknown column 'status_delete' in 'where clause'
+CRITICAL - 2025-10-10 15:49:23 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->getKategoriByRumah()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 15:49:25 --> Unknown column 'status_delete' in 'where clause'
+CRITICAL - 2025-10-10 15:49:25 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->getKategoriByRumah()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 15:49:26 --> Unknown column 'status_delete' in 'where clause'
+CRITICAL - 2025-10-10 15:49:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->getKategoriByRumah()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 15:49:27 --> Unknown column 'status_delete' in 'where clause'
+CRITICAL - 2025-10-10 15:49:27 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->getKategoriByRumah()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 15:58:31 --> Unknown column 'status_delete' in 'where clause'
+CRITICAL - 2025-10-10 15:58:31 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->getKategoriByRumah()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-10-10 15:59:02 --> Undefined variable $filterCabang
+#0 C:\Users\7U400.COM\Documents\kas\app\Controllers\Kas\Dashboard.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 59)
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#3 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-10-10 16:00:17 --> Unknown column 'transaksi.id_cabang' in 'where clause'
+CRITICAL - 2025-10-10 16:00:17 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:31:01 --> Unknown column 'transaksi.id_cabang' in 'where clause'
+CRITICAL - 2025-10-10 17:31:01 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:36:58 --> Unknown column 'transaksi.id_kategori' in 'where clause'
+CRITICAL - 2025-10-10 17:36:58 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:40:20 --> Unknown column 't.id_kategori' in 'where clause'
+CRITICAL - 2025-10-10 17:40:20 --> Call to a member function getRowArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:41:52 --> Unknown column 't.id_kategori' in 'where clause'
+CRITICAL - 2025-10-10 17:41:52 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:42:09 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:42:09 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:26 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:27 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:27 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:29 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:29 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:56 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:56 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:58 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:58 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:58 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:58 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:58 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:58 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:58 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:58 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:44:59 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:44:59 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:45:00 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:45:00 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-10-10 17:46:07 --> Unknown table 'olimpiade.transaksi'
+CRITICAL - 2025-10-10 17:46:07 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(832): App\Controllers\Kas\Dashboard->index()
+#1 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kas\Dashboard))
+#2 C:\Users\7U400.COM\Documents\kas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Documents\kas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Documents\kas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}

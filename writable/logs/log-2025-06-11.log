@@ -1,0 +1,23 @@
+ERROR - 2025-06-11 23:01:43 --> Column 'modal' cannot be null
+ERROR - 2025-06-11 23:01:43 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:01:43 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:01:43 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:01:43 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:01:43 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:01:43 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:04:38 --> Column 'modal' cannot be null
+ERROR - 2025-06-11 23:04:38 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:04:38 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:04:38 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:04:38 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:04:38 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:04:38 --> Operand should contain 1 column(s)
+ERROR - 2025-06-11 23:11:12 --> Column 'harga' cannot be null
+CRITICAL - 2025-06-11 23:11:12 --> Undefined variable $satuanManualArray
+#0 J:\My Drive\YEOMAN\app\Controllers\Produk.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'J:\\My Drive\\YEO...', 173)
+#1 J:\My Drive\YEOMAN\system\CodeIgniter.php(832): App\Controllers\Produk->simpanproduk()
+#2 J:\My Drive\YEOMAN\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#3 J:\My Drive\YEOMAN\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 J:\My Drive\YEOMAN\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 J:\My Drive\YEOMAN\system\Commands\Server\rewrite.php(43): require_once('J:\\My Drive\\YEO...')
+#6 {main}

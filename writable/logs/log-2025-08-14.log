@@ -1,0 +1,1332 @@
+ERROR - 2025-08-14 10:07:44 --> Table 'olimpiade.token' doesn't exist
+CRITICAL - 2025-08-14 10:07:44 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 10:07:44 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 10:08:18 --> Unknown column 'token_ujian.nama_ujian' in 'field list'
+CRITICAL - 2025-08-14 10:08:18 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 10:08:18 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 10:08:44 --> Unknown column 'token_ujian.id_mapel' in 'on clause'
+CRITICAL - 2025-08-14 10:08:44 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 10:08:44 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:13:26 --> Undefined property: App\Controllers\Riwayat::$db
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 16)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 10:13:26 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:13:39 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 10:13:39 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:14:14 --> Undefined variable $userId
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 35)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 10:14:14 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:14:29 --> Undefined property: stdClass::$nama_paket
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 15)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(41): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 10:14:29 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:20:21 --> Undefined variable $mey
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 8)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(41): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 10:20:21 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:23:13 --> Undefined property: stdClass::$status
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 50)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(41): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 10:23:13 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:27:31 --> Undefined property: App\Controllers\Riwayat::$session
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 10:27:31 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 10:27:42 --> Undefined property: App\Controllers\Riwayat::$session
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 10:27:42 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 11:05:36 --> Undefined property: stdClass::$skor
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 14)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(67): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 11:05:36 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 11:06:06 --> Undefined property: stdClass::$benar
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 14)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(67): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->index()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 11:06:06 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 12:05:48 --> Unknown column 's.nama_siswa' in 'field list'
+CRITICAL - 2025-08-14 12:05:48 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 12:05:48 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 12:07:03 --> Unknown column 'k.nama_kelas' in 'field list'
+CRITICAL - 2025-08-14 12:07:03 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 12:07:03 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 14:03:09 --> Unknown column 'k.nama_kelas' in 'field list'
+CRITICAL - 2025-08-14 14:03:09 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 14:03:09 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 14:03:24 --> Undefined property: stdClass::$nama_kelas
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 30)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(110): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 14:03:24 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 14:03:52 --> Undefined property: stdClass::$nama_rombel
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 32)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(110): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 14:03:52 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 14:07:01 --> Unknown column 'j.id_siswa' in 'where clause'
+CRITICAL - 2025-08-14 14:07:01 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->detail('4')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 14:07:01 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 14:09:36 --> Unknown column 'j.poin' in 'field list'
+CRITICAL - 2025-08-14 14:09:36 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->detail('4')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 14:09:36 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(Error), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(Error))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 16:49:48 --> Undefined variable $paket_soal
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 12)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(115): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 16:49:48 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 16:51:47 --> Undefined variable $paket_soal
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 12)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(126): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 16:51:47 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 16:52:16 --> Undefined variable $paket_soal
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 12)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(126): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 16:52:16 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 16:54:39 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(164): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 16:54:44 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(164): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('3')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 16:54:56 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(164): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 16:54:58 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(164): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 16:54:59 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(164): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 16:56:08 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(164): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 21:07:36 --> Attempt to read property "foto" on null
+#0 C:\Users\7U400.COM\Music\event\app\Views\admin\header.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 69)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('admin/header', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(161): view('admin/header', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 21:07:36 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 21:08:20 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(209): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 21:08:22 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(209): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 21:08:24 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(209): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('3')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 21:08:27 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(209): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 21:10:31 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(209): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+CRITICAL - 2025-08-14 21:10:33 --> Call to undefined method App\Models\SekolahModel::getByPaketSoal
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(209): CodeIgniter\Model->__call('getByPaketSoal', Array)
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-08-14 21:15:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-08-14 21:15:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\7U400.COM\Music\event\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\7U400.COM\Music\event\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\7U400.COM\Music\event\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\7U400.COM\Music\event\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(81): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 21:15:40 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 21:17:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-08-14 21:17:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\7U400.COM\Music\event\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\7U400.COM\Music\event\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\7U400.COM\Music\event\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\7U400.COM\Music\event\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(81): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 21:17:06 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2025-08-14 21:17:47 --> Unknown column 'k.id_sekolah' in 'on clause'
+CRITICAL - 2025-08-14 21:17:47 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(210): App\Models\SekolahModel->getByPaketSoal('2')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-08-14 21:17:48 --> Unknown column 'k.id_sekolah' in 'on clause'
+CRITICAL - 2025-08-14 21:17:48 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(210): App\Models\SekolahModel->getByPaketSoal('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-08-14 21:17:49 --> Unknown column 'k.id_sekolah' in 'on clause'
+CRITICAL - 2025-08-14 21:17:49 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(210): App\Models\SekolahModel->getByPaketSoal('3')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('3')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-08-14 21:18:05 --> Unknown column 'k.id_sekolah' in 'on clause'
+CRITICAL - 2025-08-14 21:18:05 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(210): App\Models\SekolahModel->getByPaketSoal('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-08-14 21:18:48 --> Unknown column 'k.id_sekolah' in 'on clause'
+CRITICAL - 2025-08-14 21:18:48 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(210): App\Models\SekolahModel->getByPaketSoal('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#6 {main}
+ERROR - 2025-08-14 21:22:35 --> Unknown column 'id_sekolah' in 'where clause'
+CRITICAL - 2025-08-14 21:22:35 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(217): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getKelas('1')
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#4 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+ERROR - 2025-08-14 21:22:49 --> Unknown column 'id_sekolah' in 'where clause'
+CRITICAL - 2025-08-14 21:22:49 --> Call to a member function getResult() on bool
+#0 C:\Users\7U400.COM\Music\event\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(217): CodeIgniter\BaseModel->findAll()
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getKelas('1')
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#4 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#7 {main}
+ERROR - 2025-08-14 21:29:51 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:29:51 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:29:52 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:29:52 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:30:08 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:30:08 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:30:09 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:30:09 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('3')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:30:12 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:30:12 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:30:13 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:30:13 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:30:26 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:30:26 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:30:28 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:30:28 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('2')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 21:30:32 --> Table 'olimpiade.riwayat_pengerjaan' doesn't exist
+CRITICAL - 2025-08-14 21:30:32 --> Call to a member function getResultArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->getSekolah('1')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 21:52:10 --> Undefined property: stdClass::$nama_paket
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 75)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(162): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 21:52:10 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:01:07 --> Invalid file: riwayat/index.php
+#0 C:\Users\7U400.COM\Music\event\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('riwayat/index.p...')
+#1 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/index', Array, true)
+#2 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(167): view('riwayat/index', Array)
+#3 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#4 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#8 {main}
+CRITICAL - 2025-08-14 23:01:07 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\View\Exceptions\ViewException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\View\Exceptions\ViewException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:03:44 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:03:44 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:04:16 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:04:16 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:05:18 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:05:18 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:06:50 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:06:50 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:07:24 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:07:24 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:08:27 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:08:27 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:10:03 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:10:03 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:11:44 --> Undefined property: stdClass::$waktu_mulai
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\Users\\7U400....', 15)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:11:44 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:12:52 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:12:52 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:13:07 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:13:07 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:13:10 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:13:10 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:14:31 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:14:31 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:15:25 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:15:25 --> Uncaught ErrorException: file_get_contents(C:\Users\7U400.COM\Music\event\app\Views\errors\html\debug.js): Failed to open stream: No such file or directory in C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php:19
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\Users\\7U400....', 19)
+#1 C:\Users\7U400.COM\Music\event\app\Views\errors\html\error_exception.php(19): file_get_contents('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(234): include('C:\\Users\\7U400....')
+#3 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\Users\7U400.COM\Music\event\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2025-08-14 23:16:48 --> Attempt to read property "nama_paket" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\siswa\riwayat.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 13)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('siswa/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('siswa/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:31:29 --> Attempt to read property "id_siswa" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 86)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:31:39 --> Attempt to read property "id_siswa" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 86)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:31:42 --> Attempt to read property "id_siswa" on array
+#0 C:\Users\7U400.COM\Music\event\app\Views\riwayat\riwayat.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\Users\\7U400....', 86)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('riwayat/riwayat', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(183): view('riwayat/riwayat', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->pengerjaan()
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+ERROR - 2025-08-14 23:47:13 --> Unknown column 'j.status' in 'field list'
+CRITICAL - 2025-08-14 23:47:13 --> Call to a member function getRowArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+ERROR - 2025-08-14 23:48:20 --> Unknown column 'j.status' in 'field list'
+CRITICAL - 2025-08-14 23:48:20 --> Call to a member function getRowArray() on bool
+#0 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#1 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#2 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#5 {main}
+CRITICAL - 2025-08-14 23:50:30 --> Undefined variable $nilai
+#0 C:\Users\7U400.COM\Music\event\app\Views\pdf\hasilpribadi.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 102)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('pdf/hasilpribad...', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(267): view('pdf/hasilpribad...', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:50:34 --> Undefined variable $nilai
+#0 C:\Users\7U400.COM\Music\event\app\Views\pdf\hasilpribadi.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 102)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('pdf/hasilpribad...', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(267): view('pdf/hasilpribad...', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:51:51 --> Cannot access offset of type string on string
+#0 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include()
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('pdf/hasilpribad...', Array, true)
+#3 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(267): view('pdf/hasilpribad...', Array)
+#4 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#9 {main}
+CRITICAL - 2025-08-14 23:52:40 --> Cannot access offset of type string on string
+#0 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include()
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('pdf/hasilpribad...', Array, true)
+#3 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(267): view('pdf/hasilpribad...', Array)
+#4 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#9 {main}
+CRITICAL - 2025-08-14 23:53:22 --> Undefined variable $no
+#0 C:\Users\7U400.COM\Music\event\app\Views\pdf\hasilpribadi.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 103)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('pdf/hasilpribad...', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(267): view('pdf/hasilpribad...', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:53:28 --> Undefined variable $d
+#0 C:\Users\7U400.COM\Music\event\app\Views\pdf\hasilpribadi.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\7U400....', 102)
+#1 C:\Users\7U400.COM\Music\event\system\View\View.php(210): include('C:\\Users\\7U400....')
+#2 C:\Users\7U400.COM\Music\event\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\7U400.COM\Music\event\system\Common.php(1089): CodeIgniter\View\View->render('pdf/hasilpribad...', Array, true)
+#4 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(267): view('pdf/hasilpribad...', Array)
+#5 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#6 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#7 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#10 {main}
+CRITICAL - 2025-08-14 23:53:39 --> Parent table not found for table cell
+#0 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(271): Dompdf\Dompdf->render()
+#9 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#10 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#11 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#14 {main}
+CRITICAL - 2025-08-14 23:54:34 --> Parent table not found for table cell
+#0 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(905): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\Users\7U400.COM\Music\event\vendor\dompdf\dompdf\src\Dompdf.php(808): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\Users\7U400.COM\Music\event\app\Controllers\Riwayat.php(271): Dompdf\Dompdf->render()
+#9 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(832): App\Controllers\Riwayat->cetakpdf('4')
+#10 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Riwayat))
+#11 C:\Users\7U400.COM\Music\event\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\7U400.COM\Music\event\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\7U400.COM\Music\event\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\7U400....')
+#14 {main}
